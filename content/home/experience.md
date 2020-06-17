@@ -24,7 +24,8 @@ date_format = "Jan 2006"
   location = "Toronto, ON"
   date_start = "2019-09-09"
   date_end = ""
-  description = """
+  description = """ 
+  
   Courses:
   
   * RSM430: Fixed Income Securities
@@ -32,57 +33,60 @@ date_format = "Jan 2006"
   """
   
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Undergraduate Researcher"
+  company = "RiskLab, University of Toronto"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
+  location = "Toronto, ON"
+  date_start = "2019-01-07"
+  date_end = "2020-04-22"
+  description = """ 
+  Responsibilities included:  
   
-  * Analysing
-  * Modelling
-  * Deploying
+* Led a project on pricing of Asian Options using jump diffusion stochastic processes for Crypto data.
+* Assisted in extracting and preprocessing data from different data sources & maintain them using MongoDB for different research endeavors.
   """
   
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Summer Analyst"
+  company = "Milliman – Financial Risk Management"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  location = "Chicago, IL"
+  date_start = "2019-05-20"
+  date_end = "2019-08-24"
   description = """
-  Responsibilities include:
+  Responsibilities included:
   
-  * Analysing
-  * Modelling
-  * Deploying
+* Generating Trading Grids for traders to trade based on client firms’ policies, their behaviour and change in Option Values.
+* Performing Greek analysis in R to explain the movements in Option Values and Greeks to the clients on weekly basis.
+* Creating weekly Performance Attribution report for clients based on daily trades and their hedges made across the week.
   """
   
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Summer Analyst"
+  company = "Manulife – Capital Management"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
+  location = "Toronto, ON"
+  date_start = "2018-04-01"
+  date_end = "2018-08-24"
   description = """
-  Responsibilities include:
+  Responsibilities included:
   
-  * Analysing
-  * Modelling
-  * Deploying
+* Automated the existing functionality of LICAT (Life Insurance Capital Adequacy Test) infrastructure and reporting process for Interest Rate Risk using VBA and excel which allowed time saving of up to 8 hours/week for the team.
+* Streamlined calculation & reporting for Future Tax Reserves using VBA, allowing time saving of up to 28 hours/quarter.
+  """
+  
+[[experience]]
+  title = "Summer Intern"
+  company = "PetPooja - Data Analytics"
+  company_url = ""
+  location = "Ahmedabad, GJ"
+  date_start = "2017-04-01"
+  date_end = "2017-08-24"
+  description = """
+  Responsibilities included:
+  
+* Implemented data cleaning techniques in R to clean-up and classify the food ordering data and used that to analyze and preprocess data for the recommendation engine for a restaurant POS platform.
   """
 
-[[experience]]
-  title = "Professor"
-  company = "University X"
-  company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
 
 +++
