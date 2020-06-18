@@ -13,6 +13,7 @@ education:
     year: 2020
 email: ""
 interests:
+- Data Science
 - Reinforcement Learning
 - Quantitative Finance
 organizations:
@@ -36,8 +37,6 @@ user_groups:
 I am currently a final year undergraduate student in Statistics, Mathematics and Actuarial Science at the University of Toronto. Within academia, I am a research assistant at RiskLab, and a teaching assistant in the Deparment of Statistical Sciences as well as Rotman School of Management.
 
 Starting Fall 2020, I will be joining Dynamic Optimization & Operations Management Lab in the MIE department to work on Reinforcement Learning and Quantitative Finance. In the lab, I will be working under the supervision of Professor Chi Guhn Lee.
-
-In the past, I have worked at Milliman on the Financial Risk Management team focusing on hedging Variable Annuities Portfolios, and at Manulife on the Capital Management team.
 
 Recent coursework: Probabilistic Machine Learning, Stochastic Calculus for Asset Pricing, Statistical Methods for Machine Learning, Bayesian Statistics and Stochastic Processes
 
