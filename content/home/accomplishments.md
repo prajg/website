@@ -26,7 +26,7 @@ date_format = "Jan 2006"
   certificate_url = ""
   date_start = "2020-05-01"
   date_end = ""
-  description = ""
+  description = "This scholarship recognizes promising AI talent in Ontario and supports the recruitment of top students to AI-related masters program."
 
 [[item]]
   organization = "University of Toronto"
@@ -51,7 +51,7 @@ date_format = "Jan 2006"
 [[item]]
   organization = "Morneau Shepell"
   organization_url = ""
-  title = ""
+  title = "Morneau Shepell Scholarship"
   url = ""
   certificate_url = ""
   date_start = "2018-04-01"
