@@ -9,7 +9,7 @@ menu:
     weight: 1
 summary: Statistical Methods for Machine Learning 1
 title: Assignments
-toc: true
+toc: false
 type: docs
 weight: 1
 ---
