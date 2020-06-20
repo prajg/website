@@ -4,9 +4,9 @@ draft: false
 linktitle: Assignment 5
 menu:
   example:
-    parent: Example Topic
+    parent: Assignments
     weight: 5
-title: Example Page 1
+title: Assignment 5
 toc: true
 type: docs
 weight: 5

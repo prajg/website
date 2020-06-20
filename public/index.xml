@@ -34,7 +34,7 @@
     </item>
     
     <item>
-      <title>Example Page 1</title>
+      <title>Assignment 2</title>
       <link>/courses/example/assignment_2_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/example/assignment_2_updated/</guid>
@@ -248,7 +248,7 @@ comparison, the models are quite similar.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Example Page 1</title>
+      <title>Assignment 3</title>
       <link>/courses/example/assignment_3_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/example/assignment_3_updated/</guid>
@@ -700,7 +700,7 @@ performs the best with the test error rate = &lt;strong&gt;7.69%&lt;/strong&gt;.
     </item>
     
     <item>
-      <title>Example Page 1</title>
+      <title>Assignment 4</title>
       <link>/courses/example/assignment_4_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/example/assignment_4_updated/</guid>
@@ -1061,7 +1061,7 @@ by the two methods are pretty close.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Example Page 1</title>
+      <title>Assignment 5</title>
       <link>/courses/example/assignment_5_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/example/assignment_5_updated/</guid>
@@ -1559,7 +1559,7 @@ knitr::kable(as.data.frame(as.matrix(y)), caption = &amp;quot;Coefficient for La
     </item>
     
     <item>
-      <title>Example Page 1</title>
+      <title>Assignment 6</title>
       <link>/courses/example/assignment_6_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>/courses/example/assignment_6_updated/</guid>
