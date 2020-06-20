@@ -5,10 +5,10 @@ lastmod: "2018-09-09T00:00:00Z"
 linktitle: STA314 
 menu:
   example:
-    name: Overview
+    name: Assignments
     weight: 1
 summary: Statistical Methods for Machine Learning 1
-title: Overview
+title: Assignments
 toc: true
 type: docs
 weight: 1
