@@ -247,6 +247,9 @@ plots which confirm the same.
 
 ![Box-plots of features to be used in
 prediction](<img src="/img/2bs-1.png"  />)
+<p class="caption">
+Box-plots of features to be used in prediction
+</p>
 
 ### Part c:
 
