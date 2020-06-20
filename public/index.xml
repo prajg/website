@@ -774,7 +774,7 @@ points(param_values, val, col = &#39;blue&#39;, pch = 20)
 points(param_values[which.max(val)], val[which.max(val)], col = &#39;red&#39;, pch = 19) 
 abline(v = param_values[which.max(val)], col = &#39;red&#39;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_4_updated_files/figure-markdown_strict/1c-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/1c-1.png&#34; /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;question-2&#34;&gt;Question 2:&lt;/h3&gt;
 &lt;p&gt;Here, we have a case of simple logistic regression where Y is a binary
 dependent variable and X is the predictor variable with sample data

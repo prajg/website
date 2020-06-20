@@ -96,7 +96,8 @@ the log-likelihood.
     points(param_values[which.max(val)], val[which.max(val)], col = 'red', pch = 19) 
     abline(v = param_values[which.max(val)], col = 'red')
 
-<img src="Assignment_4_updated_files/figure-markdown_strict/1c-1.png" style="display: block; margin: auto;" />
+<img src="/img/1c-1.png" />
+
 
 ### Question 2:
 
