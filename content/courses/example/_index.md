@@ -8,10 +8,6 @@ menu:
     name: Assignments
     weight: 1
 summary: Statistical Methods for Machine Learning 1
-title: Overview
-toc: true
-type: docs
-weight: 1
 ---
 
 ## Course Coverage:
