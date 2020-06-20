@@ -618,7 +618,7 @@ for ( i in 1:200 ) {
 }
 plot(1:200, knn_test_error, xlab = &amp;quot;K&amp;quot;, ylab = &amp;quot;Test Error Rate (%)&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/2g-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2g-1.png&#34; /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;df &amp;lt;- data.frame(matrix(ncol = 2, nrow = 10))
 x &amp;lt;- c(&amp;quot;K&amp;quot;, &amp;quot;Error&amp;quot;)
 colnames(df) &amp;lt;- x

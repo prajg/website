@@ -419,7 +419,8 @@ of using Logistic Regression on features selected in part b.
     }
     plot(1:200, knn_test_error, xlab = "K", ylab = "Test Error Rate (%)")
 
-![](/img/2g-1.png)
+<img src="/img/2g-1.png" /> 
+
 
     df <- data.frame(matrix(ncol = 2, nrow = 10))
     x <- c("K", "Error")
