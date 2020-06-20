@@ -12,16 +12,6 @@ title: Overview
 toc: true
 type: docs
 weight: 1
-linktitle: STA414 
-menu:
-  example:
-    name: Overview
-    weight: 2
-summary: Statistical Methods for Machine Learning 2
-title: Overview
-toc: true
-type: docs
-weight: 2
 ---
 
 ## Flexibility
