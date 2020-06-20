@@ -8,8 +8,8 @@ menu:
     name: Assignments
     weight: 1
 summary: Statistical Methods for Machine Learning 1
-title: Assignments
-toc: false
+title: Overview
+toc: true
 type: docs
 weight: 1
 ---
