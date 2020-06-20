@@ -226,7 +226,7 @@ coefficient greater than 0.6 in predicting.
     library(corrplot)
     corrplot(A, type="full", method = "color")
 
-<img src="Assignment_3_updated_files/figure-markdown_strict/2b-1.png" alt="Correlation plot"  />
+<img src="/img/2b-1.png" alt="Correlation plot"  />
 <p class="caption">
 Correlation plot
 </p>

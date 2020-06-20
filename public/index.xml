@@ -440,7 +440,7 @@ A
 library(corrplot)
 corrplot(A, type=&amp;quot;full&amp;quot;, method = &amp;quot;color&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_3_updated_files/figure-markdown_strict/2b-1.png&#34; alt=&#34;Correlation plot&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2b-1.png&#34; alt=&#34;Correlation plot&#34;  /&gt;&lt;/p&gt;
 &lt;p class=&#34;caption&#34;&gt;
 Correlation plot
 &lt;/p&gt;
