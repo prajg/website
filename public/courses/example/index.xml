@@ -54,5 +54,179 @@
 </description>
     </item>
     
+    <item>
+      <title>Assignment 2</title>
+      <link>/courses/example/assignment_2/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>/courses/example/assignment_2/</guid>
+      <description>
+
+
+&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;If we write down the model using the &lt;span class=&#34;math inline&#34;&gt;\(\hat{\beta}\)&lt;/span&gt; coefficients we are provided, we have:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ \hat{y} = 50 + 20*GPA + 0.07*IQ + 35*Gender + 0.01*(GPA \times IQ) - 10*(GPA \times Gender)  \]&lt;/span&gt;&lt;br /&gt;
+where Gender is 1 for Female and 0 for Male and &lt;span class=&#34;math inline&#34;&gt;\(\hat{y}\)&lt;/span&gt; represents salary in thousands&lt;/p&gt;
+&lt;p&gt;So, if we write separate models for male and female, we have:&lt;/p&gt;
+&lt;p&gt;For Male, the model is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ \hat{y} = 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  \]&lt;/span&gt; For Female, the model is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ \hat{y} = 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  \]&lt;/span&gt;&lt;/p&gt;
+&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part a:&lt;/h3&gt;
+&lt;p&gt;Here, all the options are comparing Male’s Salary with respect to Female’s.&lt;/p&gt;
+&lt;p&gt;So, firstly, let’s just equate both the models to see how does the inequality work out. If we want to see when, on average, do female earn more than male, the inequality we have is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\begin{aligned}
+&amp;amp;  85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) &amp;gt; 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\
+&amp;amp; 85 + 10*GPA &amp;gt; 50 + 20*GPA \\
+&amp;amp; 3.5 &amp;gt; GPA
+ \end{aligned}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Therefore, when the GPA is smaller than 3.5, females, on average, earn more than males.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(i)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as males, on average, earn more than females only when GPA is greater than 3.5, and not in general for any constant value of GPA.&lt;br /&gt;
+&lt;strong&gt;(ii)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as females, on average, earn more than males only when GPA is less than 3.5, and not in general for any constant value of GPA.&lt;br /&gt;
+&lt;strong&gt;(iii)&lt;/strong&gt; is &lt;strong&gt;correct&lt;/strong&gt; as males, on average, earn more than females when GPA is greater than 3.5. So, if we quantify high GPA as GPA &amp;gt;3.5, this statement is correct.&lt;br /&gt;
+&lt;strong&gt;(iv)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as for high GPA, females earn less than males, on average.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part b:&lt;/h3&gt;
+&lt;p&gt;Here, we want to predict the salary of a female with IQ 110 and GPA 4.0. So, here, if we plug in the values in our base model, we have:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+\begin{aligned}
+\hat{Y} &amp;amp;= 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\
+  &amp;amp;= 85 + 10*4 + 0.07*110 + 0.01*(4*110) \\ 
+ &amp;amp;= 137.1
+ \end{aligned}
+\]&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part c:&lt;/h3&gt;
+&lt;p&gt;False. To verify if (GPA &amp;amp; IQ) together have an impact, we need to test &lt;span class=&#34;math inline&#34;&gt;\(H_0: \hat{\beta_4} = 0\)&lt;/span&gt; and look at the p-value associated with a t-statistic or an F-statistic to come to a conclusion.&lt;/p&gt;
+&lt;p&gt;If we notice partial effect of IQ and its interactive term, we see that IQ’s main effect is &lt;span class=&#34;math inline&#34;&gt;\((0.07*IQ)\)&lt;/span&gt; and the effect of interactive term is &lt;span class=&#34;math inline&#34;&gt;\((0.01*GPA*IQ)\)&lt;/span&gt; . So, IQ hierarchical effect is &lt;span class=&#34;math inline&#34;&gt;\((GPA/7)\)&lt;/span&gt; , which is around 57% the above case for GPA = 4.0. So, we can not ignore it before having a closer look at the respective p-value.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Question 2&lt;/h2&gt;
+&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part a:&lt;/h3&gt;
+&lt;p&gt;By installing the library ISLR, we already have the dataset Carseats. So, we will directly jump to fitting the model.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mod1 &amp;lt;- lm(Sales ~ Price + Urban + US, data = Carseats)
+summary(mod1)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Sales ~ Price + Urban + US, data = Carseats)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -6.9206 -1.6220 -0.0564  1.5786  7.0581 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept) 13.043469   0.651012  20.036  &amp;lt; 2e-16 ***
+## Price       -0.054459   0.005242 -10.389  &amp;lt; 2e-16 ***
+## UrbanYes    -0.021916   0.271650  -0.081    0.936    
+## USYes        1.200573   0.259042   4.635 4.86e-06 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 2.472 on 396 degrees of freedom
+## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2335 
+## F-statistic: 41.52 on 3 and 396 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part b:&lt;/h3&gt;
+&lt;p&gt;To interpret the coefficients, we first look at the categorical variables using contrast function&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::kable(contrasts(Carseats$Urban), caption = &amp;quot;Coding R uses in case of Urban vs Rural&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:2b&#34;&gt;Table 1: &lt;/span&gt;Coding R uses in case of Urban vs Rural&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Yes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::kable(contrasts(Carseats$US), caption = &amp;quot;Coding R uses in case of US vs Non US&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:2b&#34;&gt;Table 1: &lt;/span&gt;Coding R uses in case of US vs Non US&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Yes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Based on the result of contrast function, we observe that person living in urban setting has value 1 for Urban variable and person living in rural setting has value 0 for the same. For US variable, R assigns value 1 if the store is in US and 0 if it is not.&lt;/p&gt;
+&lt;p&gt;Now that we know the qualitative predictors, we can start interpreting the coefficients in the model.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intercept represents sales(in thousands) for a store where it does not charge any price for car seats, which is in a rural setting and the store is not in US.&lt;/li&gt;
+&lt;li&gt;For the Price coefficient, we can say that for every unit increase in the price charged for car seats, the sales decrease by approx 54.45 units(0.05445*1000) keeping all other predictors fixed.&lt;/li&gt;
+&lt;li&gt;Coefficient for UrbanYes indicates the average difference in the sales of a store located in Urban area as compared to rural area. So, if the store is in Urban area, then keeping everything else constant, the sales go down by 21.9 units as compared to stores in Rural area. However, since the p-value is not significant, we can not be certain about this relationship.&lt;/li&gt;
+&lt;li&gt;Lastly, the USYes coefficient can be interpreted as the average increase in Sales provided that the store is located in the United States. Thus, on average, the sales in a US store are 1200.57 units more than in a non US store keeping all other predictors remaining fixed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part c:&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ Sales = 13.043469 - 0.054459*Price - 0.021916*UrbanYes + 1.200573*USYes + \epsilon \]&lt;/span&gt; where, UrbanYes is 1 if the store is in Urban setting and 0 if not while USYes is 1 if the store is in US and 0 if not&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part d:&lt;/h3&gt;
+&lt;p&gt;For rejecting the null hypothesis &lt;span class=&#34;math inline&#34;&gt;\(H_0 : \beta_j = 0\)&lt;/span&gt;, we would want a small p-value (less than 0.05). So, here we can reject null hypothesis for &lt;strong&gt;Price&lt;/strong&gt; and &lt;strong&gt;USYes&lt;/strong&gt; variable as their p-value is less than 0.05. A small p-value indicates that we observe an association between the predictor and the response. So, we reject the null hypothesis and declare a relationship to exist between predictor and response.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part e:&lt;/h3&gt;
+&lt;p&gt;On the basis of previous question, we now want to fit a new smaller model that only uses the predictors for which there is evidence of association with the response.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mod2 &amp;lt;- lm(Sales ~ Price + US, data = Carseats)
+summary(mod2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## Call:
+## lm(formula = Sales ~ Price + US, data = Carseats)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -6.9269 -1.6286 -0.0574  1.5766  7.0515 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept) 13.03079    0.63098  20.652  &amp;lt; 2e-16 ***
+## Price       -0.05448    0.00523 -10.416  &amp;lt; 2e-16 ***
+## USYes        1.19964    0.25846   4.641 4.71e-06 ***
+## ---
+## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
+## 
+## Residual standard error: 2.469 on 397 degrees of freedom
+## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2354 
+## F-statistic: 62.43 on 2 and 397 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Part f:&lt;/h3&gt;
+&lt;p&gt;On comparing the output of summaries, we see that &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; is the same for both the models. So, while going from smaller to bigger model (i.e., model in part (e) to model in part (a)), because the &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; does not increase, we can continue with the smaller model and drop the Price$Urban variable as it is not helping improving the fit.&lt;/p&gt;
+&lt;p&gt;Moreover, while going from smaller model to base model, RSE increases, F-statistic decreases and the Adjusted &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; decreases a bit as well. So, we can say that smaller model would be marginally better for all the above mentioned reasons and it is also easier to interpret.&lt;/p&gt;
+&lt;p&gt;But on average, if we just look at the summary statistics for model comparison, the models are quite similar.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
