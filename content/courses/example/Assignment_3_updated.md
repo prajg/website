@@ -245,11 +245,10 @@ plots which confirm the same.
     boxplot(Auto$horsepower ~ Auto$mpg01, main = "Horsepower vs mpg01")
     boxplot(Auto$weight ~ Auto$mpg01, main = "Weight vs mpg01")
 
-![Box-plots of features to be used in
-prediction](<img src="/img/2bs-1.png" alt="Box-plots of features to be used in prediction" /> <p class="caption">
+<img src="/img/2bs-1.png" alt="Box-plots of features to be used in prediction" /> <p class="caption">
 Box-plots of features to be used in prediction
 </p>
-)
+
 
 ### Part c:
 
