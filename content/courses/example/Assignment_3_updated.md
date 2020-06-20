@@ -246,7 +246,7 @@ plots which confirm the same.
     boxplot(Auto$weight ~ Auto$mpg01, main = "Weight vs mpg01")
 
 ![Box-plots of features to be used in
-prediction](Assignment_3_updated_files/figure-markdown_strict/2bs-1.png)
+prediction](/img/2bs-1.png)
 
 ### Part c:
 
@@ -416,7 +416,7 @@ of using Logistic Regression on features selected in part b.
     }
     plot(1:200, knn_test_error, xlab = "K", ylab = "Test Error Rate (%)")
 
-![](Assignment_3_updated_files/figure-markdown_strict/2g-1.png)
+![](/img/2g-1.png)
 
     df <- data.frame(matrix(ncol = 2, nrow = 10))
     x <- c("K", "Error")
