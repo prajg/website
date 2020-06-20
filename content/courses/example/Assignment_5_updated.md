@@ -237,7 +237,8 @@ selection in order to choose the best model containing the predictors
     # Highlighting the point for which we have maximum adjusted R-squared
     points(adjr2_max, reg.summary$adjr2[adjr2_max], col="red", pch=16)
 
-![](Assignment_5_updated_files/figure-markdown_strict/2b-1.png)
+<img src="/img/2b-1 2.png"  />
+
 
 Now that we have this, we want to know model coefficients from each of
 *C*<sub>*p*</sub>, *B**I**C* and Adjusted *R*<sup>2</sup>.
@@ -387,7 +388,7 @@ for that particular value of log(lambda).
     plot(mod.ridge, xvar = "lambda", label = TRUE)
     legend("topright", lwd = 1, col = 1:8, legend = colnames(xmat), cex = .5)
 
-<img src="Assignment_5_updated_files/figure-markdown_strict/2d3-1.png" style="display: block; margin: auto;" />
+<img src="/img/2d3-1.png"  />
 
 Now that we have the plot, we want to plot the cross-validation error as
 a function of *l**o**g*(*λ*) to find optimal *λ*. Following that, we
@@ -405,7 +406,8 @@ also want coefficient estimates for that particular value of *λ*.
     # such that error is within one standard error of minimum
     plot(mod_cv_2, xvar = "lambda", label = TRUE)
 
-<img src="Assignment_5_updated_files/figure-markdown_strict/2d4-1.png" style="display: block; margin: auto;" />
+<img src="/img/2d4-1.png"  />
+
 
     # To find the optimal lambda, we extract the one with minimum mean cross validation error.
     mod_cv_2$lambda.min
@@ -496,7 +498,7 @@ for that particular value of log(lambda).
     plot(mod.lasso, xvar = "lambda", ylim = c(0,1), label = TRUE) 
     legend("topright", lwd = 1, col = 1:8, legend = colnames(x_mat), cex = 0.4)
 
-<img src="Assignment_5_updated_files/figure-markdown_strict/2d1-1.png" style="display: block; margin: auto;" />
+<img src="/img/2d1-1.png"  />
 
 Now that we have the plot, we want to plot the cross-validation error as
 a function of *l**o**g*(*λ*) to find optimal *λ*. Following that, we
@@ -514,7 +516,7 @@ also want coefficient estimates for that particular value of *λ*.
     # such that error is within one standard error of minimum.
     plot(mod_cv_L, xvar = "lambda", label = TRUE)
 
-<img src="Assignment_5_updated_files/figure-markdown_strict/2d2-1.png" style="display: block; margin: auto;" />
+<img src="/img/2d2-1.png"  />
 
     # To find the optimal lambda, we extract the one with minimum mean cross validation error
     mod_cv_L$lambda.min

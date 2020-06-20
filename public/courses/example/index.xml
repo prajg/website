@@ -1245,7 +1245,7 @@ plot(reg.summary$adjr2, xlab=&amp;quot;Number of Predictors&amp;quot;, ylab=&amp
 # Highlighting the point for which we have maximum adjusted R-squared
 points(adjr2_max, reg.summary$adjr2[adjr2_max], col=&amp;quot;red&amp;quot;, pch=16)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2b-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2b-1 2.png&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;Now that we have this, we want to know model coefficients from each of
 &lt;em&gt;C&lt;/em&gt;&lt;sub&gt;&lt;em&gt;p&lt;/em&gt;&lt;/sub&gt;, &lt;em&gt;B&lt;strong&gt;I&lt;/strong&gt;C&lt;/em&gt; and Adjusted &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;knitr::kable(coef(mod, cp_min), caption = &amp;quot;Coefficients for model based on Cp&amp;quot;)
@@ -1381,7 +1381,7 @@ mod.ridge = glmnet(xmat, Y, alpha = 0)
 plot(mod.ridge, xvar = &amp;quot;lambda&amp;quot;, label = TRUE)
 legend(&amp;quot;topright&amp;quot;, lwd = 1, col = 1:8, legend = colnames(xmat), cex = .5)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d3-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2d3-1.png&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;Now that we have the plot, we want to plot the cross-validation error as
 a function of &lt;em&gt;l&lt;strong&gt;o&lt;/strong&gt;g&lt;/em&gt;(&lt;em&gt;λ&lt;/em&gt;) to find optimal &lt;em&gt;λ&lt;/em&gt;. Following that, we
 also want coefficient estimates for that particular value of &lt;em&gt;λ&lt;/em&gt;.&lt;/p&gt;
@@ -1397,7 +1397,7 @@ mod_cv_2 = cv.glmnet(xmat, Y, alpha = 0)
 # such that error is within one standard error of minimum
 plot(mod_cv_2, xvar = &amp;quot;lambda&amp;quot;, label = TRUE)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d4-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2d4-1.png&#34;  /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# To find the optimal lambda, we extract the one with minimum mean cross validation error.
 mod_cv_2$lambda.min
 
@@ -1481,7 +1481,7 @@ mod.lasso = glmnet(x_mat, Y, alpha = 1)
 plot(mod.lasso, xvar = &amp;quot;lambda&amp;quot;, ylim = c(0,1), label = TRUE) 
 legend(&amp;quot;topright&amp;quot;, lwd = 1, col = 1:8, legend = colnames(x_mat), cex = 0.4)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d1-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2d1-1.png&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;Now that we have the plot, we want to plot the cross-validation error as
 a function of &lt;em&gt;l&lt;strong&gt;o&lt;/strong&gt;g&lt;/em&gt;(&lt;em&gt;λ&lt;/em&gt;) to find optimal &lt;em&gt;λ&lt;/em&gt;. Following that, we
 also want coefficient estimates for that particular value of &lt;em&gt;λ&lt;/em&gt;.&lt;/p&gt;
@@ -1497,7 +1497,7 @@ mod_cv_L = cv.glmnet(xmat, Y, alpha = 1)
 # such that error is within one standard error of minimum.
 plot(mod_cv_L, xvar = &amp;quot;lambda&amp;quot;, label = TRUE)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d2-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/2d2-1.png&#34;  /&gt;&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# To find the optimal lambda, we extract the one with minimum mean cross validation error
 mod_cv_L$lambda.min
 
