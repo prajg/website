@@ -18,12 +18,27 @@
   </url>
   
   <url>
-    <loc>/courses/example/example2/</loc>
+    <loc>/courses/example/assignment_2_updated/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>/courses/example/assignment_3_updated/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/example/assignment_4_updated/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/example/assignment_5_updated/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/example/assignment_6_updated/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   

@@ -27,10 +27,11 @@
   
     
   
-  <meta name="description" content="Statistical Methods for Machine Learning 1">
+  <meta name="description" content="Question 1 If we write down the model using the $\hat{\beta}$ coefficients we are provided, we have:
+$$ \hat{y} = 50 &#43; 20*GPA &#43; 0.07*IQ &#43; 35*Gender &#43; 0.01*(GPA \times IQ) - 10*(GPA \times Gender) $$">
 
   
-  <link rel="alternate" hreflang="en-us" href="/courses/example/">
+  <link rel="alternate" hreflang="en-us" href="/courses/example/assignment_2_updated/">
 
   
 
@@ -215,14 +216,12 @@
   
 
   
-  <link rel="alternate" href="/courses/example/index.xml" type="application/rss+xml" title="Raj Patel">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="/courses/example/">
+  <link rel="canonical" href="/courses/example/assignment_2_updated/">
 
   
   
@@ -238,29 +237,35 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Raj Patel">
-  <meta property="og:url" content="/courses/example/">
-  <meta property="og:title" content="Overview | Raj Patel">
-  <meta property="og:description" content="Statistical Methods for Machine Learning 1"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="/courses/example/assignment_2_updated/">
+  <meta property="og:title" content="Example Page 1 | Raj Patel">
+  <meta property="og:description" content="Question 1 If we write down the model using the $\hat{\beta}$ coefficients we are provided, we have:
+$$ \hat{y} = 50 &#43; 20*GPA &#43; 0.07*IQ &#43; 35*Gender &#43; 0.01*(GPA \times IQ) - 10*(GPA \times Gender) $$"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2018-09-09T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-05-05T00:00:00&#43;01:00">
   
 
   
 
 
 
-
   
 
 
   
 
 
+  
 
 
 
-  <title>Overview | Raj Patel</title>
+
+
+  <title>Example Page 1 | Raj Patel</title>
 
 </head>
 
@@ -600,7 +605,7 @@
   
   
   
-  <div class="docs-toc-item active">
+  <div class="docs-toc-item">
     <a class="docs-toc-link" href="/courses/example/">Overview</a>
 
   </div>
@@ -613,7 +618,7 @@
         <a href="/courses/example/example1/">Tips 1-2</a>
       </li>
       
-      <li >
+      <li class="active">
         <a href="/courses/example/assignment_2_updated/">Assignment 2</a>
       </li>
       
@@ -651,7 +656,23 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#course-coverage">Course Coverage:</a></li>
+    <li><a href="#question-1">Question 1</a>
+      <ul>
+        <li><a href="#part-a">Part a:</a></li>
+        <li><a href="#part-b">Part b:</a></li>
+        <li><a href="#part-c">Part c:</a></li>
+      </ul>
+    </li>
+    <li><a href="#question-2">Question 2</a>
+      <ul>
+        <li><a href="#part-a-1">Part a:</a></li>
+        <li><a href="#part-b-1">Part b:</a></li>
+        <li><a href="#part-c-1">Part c:</a></li>
+        <li><a href="#part-d">Part d:</a></li>
+        <li><a href="#part-e">Part e:</a></li>
+        <li><a href="#part-f">Part f:</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 
@@ -664,11 +685,215 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Overview</h1>
+          <h1>Example Page 1</h1>
 
           <div class="article-style">
-            <h2 id="course-coverage">Course Coverage:</h2>
-<p>Statistical methods for supervised and unsupervised learning from data: training error, test error and cross-validation; classification, regression, and logistic regression; principal components analysis; stochastic gradient descent; decision trees and random forests; k-means clustering and nearest neighbour methods.</p>
+            <h2 id="question-1">Question 1</h2>
+<p>If we write down the model using the $\hat{\beta}$ coefficients we are
+provided, we have:</p>
+<p>$$ \hat{y} = 50 + 20*GPA + 0.07*IQ + 35*Gender + 0.01*(GPA \times IQ) - 10*(GPA \times Gender)  $$</p>
+<p>where Gender is 1 for Female and 0 for Male and $\hat{y}$ represents
+salary in thousands</p>
+<p>So, if we write separate models for male and female, we have:</p>
+<p>For Male, the model is:</p>
+<p>$$ \hat{y} = 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  $$
+For Female, the model is:</p>
+<p>$$ \hat{y} = 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  $$</p>
+<h3 id="part-a">Part a:</h3>
+<p>Here, all the options are comparing Male&rsquo;s Salary with respect to
+Female&rsquo;s.</p>
+<p>So, firstly, let&rsquo;s just equate both the models to see how does the
+inequality work out. If we want to see when, on average, do female earn
+more than male, the inequality we have is:</p>
+<p>$$
+\begin{aligned}
+&amp;  85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) &gt; 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\<br>
+&amp; 85 + 10*GPA &gt; 50 + 20*GPA \\<br>
+&amp; 3.5 &gt; GPA
+\end{aligned}
+$$</p>
+<p>Therefore, when the GPA is smaller than 3.5, females, on average, earn
+more than males.</p>
+<p><strong>(i)</strong> is <strong>incorrect</strong> as males, on average, earn more than females
+only when GPA is greater than 3.5, and not in general for any constant
+value of GPA.<br>
+<strong>(ii)</strong> is <strong>incorrect</strong> as females, on average, earn more than males
+only when GPA is less than 3.5, and not in general for any constant
+value of GPA.<br>
+<strong>(iii)</strong> is <strong>correct</strong> as males, on average, earn more than females
+when GPA is greater than 3.5. So, if we quantify high GPA as GPA
+&gt;3.5, this statement is correct.<br>
+<strong>(iv)</strong> is <strong>incorrect</strong> as for high GPA, females earn less than males,
+on average.</p>
+<h3 id="part-b">Part b:</h3>
+<p>Here, we want to predict the salary of a female with IQ 110 and GPA 4.0.
+So, here, if we plug in the values in our base model, we have:</p>
+<p>$$
+\begin{aligned}
+\hat{Y} &amp;= 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\<br>
+&amp;= 85 + 10*4 + 0.07*110 + 0.01*(4*110) \\
+&amp;= 137.1
+\end{aligned}
+$$</p>
+<h3 id="part-c">Part c:</h3>
+<p>False. To verify if (GPA &amp; IQ) together have an impact, we need to test
+$H_0: \hat{\beta_4} = 0$ and look at the p-value associated with a
+t-statistic or an F-statistic to come to a conclusion.</p>
+<p>If we notice partial effect of IQ and its interactive term, we see that
+IQ&rsquo;s main effect is (0.07 * <em>I**Q</em>) and the effect of interactive term
+is (0.01 * <em>G<strong>P</strong>A</em> * <em>I**Q</em>) . So, IQ hierarchical effect is
+(<em>G<strong>P</strong>A</em>/7) , which is around 57% the above case for GPA = 4.0. So, we
+can not ignore it before having a closer look at the respective p-value.</p>
+<h2 id="question-2">Question 2</h2>
+<h3 id="part-a-1">Part a:</h3>
+<p>By installing the library ISLR, we already have the dataset Carseats.
+So, we will directly jump to fitting the model.</p>
+<pre><code>mod1 &lt;- lm(Sales ~ Price + Urban + US, data = Carseats)
+summary(mod1)
+
+## 
+## Call:
+## lm(formula = Sales ~ Price + Urban + US, data = Carseats)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -6.9206 -1.6220 -0.0564  1.5786  7.0581 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) 13.043469   0.651012  20.036  &lt; 2e-16 ***
+## Price       -0.054459   0.005242 -10.389  &lt; 2e-16 ***
+## UrbanYes    -0.021916   0.271650  -0.081    0.936    
+## USYes        1.200573   0.259042   4.635 4.86e-06 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 2.472 on 396 degrees of freedom
+## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2335 
+## F-statistic: 41.52 on 3 and 396 DF,  p-value: &lt; 2.2e-16
+</code></pre>
+<h3 id="part-b-1">Part b:</h3>
+<p>To interpret the coefficients, we first look at the categorical
+variables using contrast function</p>
+<pre><code>knitr::kable(contrasts(Carseats$Urban), caption = &quot;Coding R uses in case of Urban vs Rural&quot;)
+</code></pre>
+<table>
+<caption>Coding R uses in case of Urban vs Rural</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Yes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td>Yes</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<pre><code>knitr::kable(contrasts(Carseats$US), caption = &quot;Coding R uses in case of US vs Non US&quot;)
+</code></pre>
+<table>
+<caption>Coding R uses in case of US vs Non US</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">Yes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No</td>
+<td align="right">0</td>
+</tr>
+<tr class="even">
+<td>Yes</td>
+<td align="right">1</td>
+</tr>
+</tbody>
+</table>
+<p>Based on the result of contrast function, we observe that person living
+in urban setting has value 1 for Urban variable and person living in
+rural setting has value 0 for the same. For US variable, R assigns value
+1 if the store is in US and 0 if it is not.</p>
+<p>Now that we know the qualitative predictors, we can start interpreting
+the coefficients in the model.</p>
+<ul>
+<li>Intercept represents sales(in thousands) for a store where it does
+not charge any price for car seats, which is in a rural setting and
+the store is not in US.</li>
+<li>For the Price coefficient, we can say that for every unit increase
+in the price charged for car seats, the sales decrease by approx
+54.45 units(0.05445*1000) keeping all other predictors fixed.</li>
+<li>Coefficient for UrbanYes indicates the average difference in the
+sales of a store located in Urban area as compared to rural area.
+So, if the store is in Urban area, then keeping everything else
+constant, the sales go down by 21.9 units as compared to stores in
+Rural area. However, since the p-value is not significant, we can
+not be certain about this relationship.</li>
+<li>Lastly, the USYes coefficient can be interpreted as the average
+increase in Sales provided that the store is located in the United
+States. Thus, on average, the sales in a US store are 1200.57 units
+more than in a non US store keeping all other predictors remaining
+fixed.</li>
+</ul>
+<h3 id="part-c-1">Part c:</h3>
+<p><em>S<strong>a</strong>l<strong>e</strong>s</em> = 13.043469 − 0.054459 * <em>P<strong>r</strong>i<strong>c</strong>e</em> − 0.021916 * <em>U<strong>r</strong>b<strong>a</strong>n<strong>Y</strong>e**s</em> + 1.200573 * <em>U<strong>S</strong>Y<strong>e</strong>s</em> + <em>ϵ</em>
+where, UrbanYes is 1 if the store is in Urban setting and 0 if not
+while USYes is 1 if the store is in US and 0 if not</p>
+<h3 id="part-d">Part d:</h3>
+<p>For rejecting the null hypothesis
+<em>H</em><sub>0</sub> : <em>β</em><sub><em>j</em></sub> = 0, we would want a small p-value
+(less than 0.05). So, here we can reject null hypothesis for <strong>Price</strong>
+and <strong>USYes</strong> variable as their p-value is less than 0.05. A small
+p-value indicates that we observe an association between the predictor
+and the response. So, we reject the null hypothesis and declare a
+relationship to exist between predictor and response.</p>
+<h3 id="part-e">Part e:</h3>
+<p>On the basis of previous question, we now want to fit a new smaller
+model that only uses the predictors for which there is evidence of
+association with the response.</p>
+<pre><code>mod2 &lt;- lm(Sales ~ Price + US, data = Carseats)
+summary(mod2)
+
+## 
+## Call:
+## lm(formula = Sales ~ Price + US, data = Carseats)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -6.9269 -1.6286 -0.0574  1.5766  7.0515 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept) 13.03079    0.63098  20.652  &lt; 2e-16 ***
+## Price       -0.05448    0.00523 -10.416  &lt; 2e-16 ***
+## USYes        1.19964    0.25846   4.641 4.71e-06 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## Residual standard error: 2.469 on 397 degrees of freedom
+## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2354 
+## F-statistic: 62.43 on 2 and 397 DF,  p-value: &lt; 2.2e-16
+</code></pre>
+<h3 id="part-f">Part f:</h3>
+<p>On comparing the output of summaries, we see that <em>R</em><sup>2</sup> is the
+same for both the models. So, while going from smaller to bigger model
+(i.e., model in part (e) to model in part (a)), because the
+<em>R</em><sup>2</sup> does not increase, we can continue with the smaller
+model and drop the Price$Urban variable as it is not helping improving
+the fit.</p>
+<p>Moreover, while going from smaller model to base model, RSE increases,
+F-statistic decreases and the Adjusted <em>R</em><sup>2</sup> decreases a bit
+as well. So, we can say that smaller model would be marginally better
+for all the above mentioned reasons and it is also easier to interpret.</p>
+<p>But on average, if we just look at the summary statistics for model
+comparison, the models are quite similar.</p>
 
           </div>
 
@@ -682,6 +907,19 @@
 <div class="post-nav">
   
   
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/example/example1/" rel="next">Example Page 1</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/example/assignment_3_updated/" rel="prev">Example Page 1</a>
+  </div>
+  
 </div>
 
           </div>
@@ -689,7 +927,7 @@
         </div>
 
         <div class="body-footer">
-          <p>Last updated on Sep 9, 2018</p>
+          <p>Last updated on May 5, 2019</p>
 
           
 
@@ -702,7 +940,7 @@
   
 
 <p class="edit-page">
-  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/example/_index.md">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/example/assignment_2_updated.md">
     <i class="fas fa-pen pr-2"></i>Edit this page
   </a>
 </p>

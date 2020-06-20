@@ -34,23 +34,216 @@
     </item>
     
     <item>
-      <title>Example Page 2</title>
-      <link>/courses/example/example2/</link>
+      <title>Example Page 1</title>
+      <link>/courses/example/assignment_2_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>/courses/example/example2/</guid>
-      <description>&lt;p&gt;Here are some more tips for getting started with Academic:&lt;/p&gt;
-&lt;h2 id=&#34;tip-3&#34;&gt;Tip 3&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
-&lt;h2 id=&#34;tip-4&#34;&gt;Tip 4&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
-&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
-&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
-&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
-&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+      <guid>/courses/example/assignment_2_updated/</guid>
+      <description>&lt;h2 id=&#34;question-1&#34;&gt;Question 1&lt;/h2&gt;
+&lt;p&gt;If we write down the model using the $\hat{\beta}$ coefficients we are
+provided, we have:&lt;/p&gt;
+&lt;p&gt;$$ \hat{y} = 50 + 20*GPA + 0.07*IQ + 35*Gender + 0.01*(GPA \times IQ) - 10*(GPA \times Gender)  $$&lt;/p&gt;
+&lt;p&gt;where Gender is 1 for Female and 0 for Male and $\hat{y}$ represents
+salary in thousands&lt;/p&gt;
+&lt;p&gt;So, if we write separate models for male and female, we have:&lt;/p&gt;
+&lt;p&gt;For Male, the model is:&lt;/p&gt;
+&lt;p&gt;$$ \hat{y} = 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  $$
+For Female, the model is:&lt;/p&gt;
+&lt;p&gt;$$ \hat{y} = 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  $$&lt;/p&gt;
+&lt;h3 id=&#34;part-a&#34;&gt;Part a:&lt;/h3&gt;
+&lt;p&gt;Here, all the options are comparing Male&amp;rsquo;s Salary with respect to
+Female&amp;rsquo;s.&lt;/p&gt;
+&lt;p&gt;So, firstly, let&amp;rsquo;s just equate both the models to see how does the
+inequality work out. If we want to see when, on average, do female earn
+more than male, the inequality we have is:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+&amp;amp;  85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) &amp;gt; 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\&lt;br&gt;
+&amp;amp; 85 + 10*GPA &amp;gt; 50 + 20*GPA \\&lt;br&gt;
+&amp;amp; 3.5 &amp;gt; GPA
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;Therefore, when the GPA is smaller than 3.5, females, on average, earn
+more than males.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;(i)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as males, on average, earn more than females
+only when GPA is greater than 3.5, and not in general for any constant
+value of GPA.&lt;br&gt;
+&lt;strong&gt;(ii)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as females, on average, earn more than males
+only when GPA is less than 3.5, and not in general for any constant
+value of GPA.&lt;br&gt;
+&lt;strong&gt;(iii)&lt;/strong&gt; is &lt;strong&gt;correct&lt;/strong&gt; as males, on average, earn more than females
+when GPA is greater than 3.5. So, if we quantify high GPA as GPA
+&amp;gt;3.5, this statement is correct.&lt;br&gt;
+&lt;strong&gt;(iv)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as for high GPA, females earn less than males,
+on average.&lt;/p&gt;
+&lt;h3 id=&#34;part-b&#34;&gt;Part b:&lt;/h3&gt;
+&lt;p&gt;Here, we want to predict the salary of a female with IQ 110 and GPA 4.0.
+So, here, if we plug in the values in our base model, we have:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+\hat{Y} &amp;amp;= 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\&lt;br&gt;
+&amp;amp;= 85 + 10*4 + 0.07*110 + 0.01*(4*110) \\
+&amp;amp;= 137.1
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;part-c&#34;&gt;Part c:&lt;/h3&gt;
+&lt;p&gt;False. To verify if (GPA &amp;amp; IQ) together have an impact, we need to test
+$H_0: \hat{\beta_4} = 0$ and look at the p-value associated with a
+t-statistic or an F-statistic to come to a conclusion.&lt;/p&gt;
+&lt;p&gt;If we notice partial effect of IQ and its interactive term, we see that
+IQ&amp;rsquo;s main effect is (0.07 * &lt;em&gt;I**Q&lt;/em&gt;) and the effect of interactive term
+is (0.01 * &lt;em&gt;G&lt;strong&gt;P&lt;/strong&gt;A&lt;/em&gt; * &lt;em&gt;I**Q&lt;/em&gt;) . So, IQ hierarchical effect is
+(&lt;em&gt;G&lt;strong&gt;P&lt;/strong&gt;A&lt;/em&gt;/7) , which is around 57% the above case for GPA = 4.0. So, we
+can not ignore it before having a closer look at the respective p-value.&lt;/p&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2&lt;/h2&gt;
+&lt;h3 id=&#34;part-a-1&#34;&gt;Part a:&lt;/h3&gt;
+&lt;p&gt;By installing the library ISLR, we already have the dataset Carseats.
+So, we will directly jump to fitting the model.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mod1 &amp;lt;- lm(Sales ~ Price + Urban + US, data = Carseats)
+summary(mod1)
+
+## 
+## Call:
+## lm(formula = Sales ~ Price + Urban + US, data = Carseats)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -6.9206 -1.6220 -0.0564  1.5786  7.0581 
+## 
+## Coefficients:
+##              Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept) 13.043469   0.651012  20.036  &amp;lt; 2e-16 ***
+## Price       -0.054459   0.005242 -10.389  &amp;lt; 2e-16 ***
+## UrbanYes    -0.021916   0.271650  -0.081    0.936    
+## USYes        1.200573   0.259042   4.635 4.86e-06 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 2.472 on 396 degrees of freedom
+## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2335 
+## F-statistic: 41.52 on 3 and 396 DF,  p-value: &amp;lt; 2.2e-16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;part-b-1&#34;&gt;Part b:&lt;/h3&gt;
+&lt;p&gt;To interpret the coefficients, we first look at the categorical
+variables using contrast function&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;knitr::kable(contrasts(Carseats$Urban), caption = &amp;quot;Coding R uses in case of Urban vs Rural&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Coding R uses in case of Urban vs Rural&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Yes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;knitr::kable(contrasts(Carseats$US), caption = &amp;quot;Coding R uses in case of US vs Non US&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Coding R uses in case of US vs Non US&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Yes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Based on the result of contrast function, we observe that person living
+in urban setting has value 1 for Urban variable and person living in
+rural setting has value 0 for the same. For US variable, R assigns value
+1 if the store is in US and 0 if it is not.&lt;/p&gt;
+&lt;p&gt;Now that we know the qualitative predictors, we can start interpreting
+the coefficients in the model.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Intercept represents sales(in thousands) for a store where it does
+not charge any price for car seats, which is in a rural setting and
+the store is not in US.&lt;/li&gt;
+&lt;li&gt;For the Price coefficient, we can say that for every unit increase
+in the price charged for car seats, the sales decrease by approx
+54.45 units(0.05445*1000) keeping all other predictors fixed.&lt;/li&gt;
+&lt;li&gt;Coefficient for UrbanYes indicates the average difference in the
+sales of a store located in Urban area as compared to rural area.
+So, if the store is in Urban area, then keeping everything else
+constant, the sales go down by 21.9 units as compared to stores in
+Rural area. However, since the p-value is not significant, we can
+not be certain about this relationship.&lt;/li&gt;
+&lt;li&gt;Lastly, the USYes coefficient can be interpreted as the average
+increase in Sales provided that the store is located in the United
+States. Thus, on average, the sales in a US store are 1200.57 units
+more than in a non US store keeping all other predictors remaining
+fixed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;part-c-1&#34;&gt;Part c:&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;S&lt;strong&gt;a&lt;/strong&gt;l&lt;strong&gt;e&lt;/strong&gt;s&lt;/em&gt; = 13.043469 − 0.054459 * &lt;em&gt;P&lt;strong&gt;r&lt;/strong&gt;i&lt;strong&gt;c&lt;/strong&gt;e&lt;/em&gt; − 0.021916 * &lt;em&gt;U&lt;strong&gt;r&lt;/strong&gt;b&lt;strong&gt;a&lt;/strong&gt;n&lt;strong&gt;Y&lt;/strong&gt;e**s&lt;/em&gt; + 1.200573 * &lt;em&gt;U&lt;strong&gt;S&lt;/strong&gt;Y&lt;strong&gt;e&lt;/strong&gt;s&lt;/em&gt; + &lt;em&gt;ϵ&lt;/em&gt;
+where, UrbanYes is 1 if the store is in Urban setting and 0 if not
+while USYes is 1 if the store is in US and 0 if not&lt;/p&gt;
+&lt;h3 id=&#34;part-d&#34;&gt;Part d:&lt;/h3&gt;
+&lt;p&gt;For rejecting the null hypothesis
+&lt;em&gt;H&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; : &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;&lt;em&gt;j&lt;/em&gt;&lt;/sub&gt; = 0, we would want a small p-value
+(less than 0.05). So, here we can reject null hypothesis for &lt;strong&gt;Price&lt;/strong&gt;
+and &lt;strong&gt;USYes&lt;/strong&gt; variable as their p-value is less than 0.05. A small
+p-value indicates that we observe an association between the predictor
+and the response. So, we reject the null hypothesis and declare a
+relationship to exist between predictor and response.&lt;/p&gt;
+&lt;h3 id=&#34;part-e&#34;&gt;Part e:&lt;/h3&gt;
+&lt;p&gt;On the basis of previous question, we now want to fit a new smaller
+model that only uses the predictors for which there is evidence of
+association with the response.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mod2 &amp;lt;- lm(Sales ~ Price + US, data = Carseats)
+summary(mod2)
+
+## 
+## Call:
+## lm(formula = Sales ~ Price + US, data = Carseats)
+## 
+## Residuals:
+##     Min      1Q  Median      3Q     Max 
+## -6.9269 -1.6286 -0.0574  1.5766  7.0515 
+## 
+## Coefficients:
+##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
+## (Intercept) 13.03079    0.63098  20.652  &amp;lt; 2e-16 ***
+## Price       -0.05448    0.00523 -10.416  &amp;lt; 2e-16 ***
+## USYes        1.19964    0.25846   4.641 4.71e-06 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 2.469 on 397 degrees of freedom
+## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2354 
+## F-statistic: 62.43 on 2 and 397 DF,  p-value: &amp;lt; 2.2e-16
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;part-f&#34;&gt;Part f:&lt;/h3&gt;
+&lt;p&gt;On comparing the output of summaries, we see that &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; is the
+same for both the models. So, while going from smaller to bigger model
+(i.e., model in part (e) to model in part (a)), because the
+&lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; does not increase, we can continue with the smaller
+model and drop the Price$Urban variable as it is not helping improving
+the fit.&lt;/p&gt;
+&lt;p&gt;Moreover, while going from smaller model to base model, RSE increases,
+F-statistic decreases and the Adjusted &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; decreases a bit
+as well. So, we can say that smaller model would be marginally better
+for all the above mentioned reasons and it is also easier to interpret.&lt;/p&gt;
+&lt;p&gt;But on average, if we just look at the summary statistics for model
+comparison, the models are quite similar.&lt;/p&gt;
 </description>
     </item>
     
@@ -500,6 +693,1038 @@ min(knn_test_error)
 see that KNN performs best for K=30 with test error rate of &lt;strong&gt;8.547%&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;However, if we take all values from 1 to 200, when K = 7, KNN classifier
 performs the best with the test error rate = &lt;strong&gt;7.69%&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/assignment_4_updated/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/assignment_4_updated/</guid>
+      <description>&lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;Here, &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;, …, &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;n&lt;/em&gt;&lt;/sub&gt; is a random
+sample from a Bernoulli distribution where &lt;em&gt;Y&lt;/em&gt; ∼ &lt;em&gt;B&lt;strong&gt;e&lt;/strong&gt;r**n&lt;/em&gt;(&lt;em&gt;p&lt;/em&gt;) with
+pmf of Y:
+&lt;em&gt;f&lt;/em&gt;(&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;|&lt;em&gt;p&lt;/em&gt;)=&lt;em&gt;p&lt;/em&gt;&lt;sup&gt;&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;&lt;/sup&gt;(1 − &lt;em&gt;p&lt;/em&gt;)&lt;sup&gt;1 − &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;&lt;/sup&gt;; &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt; ∈ {0, 1; 1 = &lt;em&gt;s&lt;strong&gt;u&lt;/strong&gt;c&lt;strong&gt;c&lt;/strong&gt;e&lt;strong&gt;s&lt;/strong&gt;s&lt;/em&gt;}&lt;/p&gt;
+&lt;h4 id=&#34;part-a&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Here, we want to find the MLE of p. So, here, the likelihood function
+is:
+$$ L(p) = \prod_{i = 1}^{n} p^{y_i} (1-p)^{1-y_i} $$
+So, from this, log-likelihood is:
+$$ l(p) = \log{p} \sum_{i = 1}^{n} y_i + \log{(1-p)} \sum_{i = 1}^{n} (1 - y_i) $$
+Now, to find the MLE of p, we set the first derivative of &lt;em&gt;l&lt;/em&gt;(&lt;em&gt;p&lt;/em&gt;) to
+be zero and double check to make sure that the second derivative is
+negative.&lt;/p&gt;
+&lt;p&gt;If we set the first derivative to be zero, we have:
+$$ \frac{dl(p)}{dp} = \frac{\sum_{i = 1}^{n} y_i}{p}  - \frac{\sum_{i = 1}^{n} (1 - y_i)}{(1-p)} = 0$$
+$$ \therefore \sum_{i = 1}^{n} y_i - p \sum_{i = 1}^{n} y_i = p \sum_{i = 1}^{n} (1-y_i)$$
+$$ \therefore \hat{p} = \frac{\sum_{i = 1}^{n} y_i}{n}$$
+Now, to make sure that this is the maximum likelihood estimator, we
+double check that the second derivative is negative.
+$$ \displaystyle \frac{d^2l(p)}{dp^2}  = - \frac {\sum_{i = 1}^{n} y_i}{p^2} - \frac{\sum_{i = 1}^{n} (1-y_i)}{(1-p)^2}$$
+Now, here, &lt;em&gt;p&lt;/em&gt; ∈ [0, 1] and &lt;em&gt;y&lt;/em&gt; ∈ {0, 1}. Therefore, the second
+derivative is negative as both the terms will be negative.&lt;/p&gt;
+&lt;h4 id=&#34;part-b&#34;&gt;Part b:&lt;/h4&gt;
+&lt;p&gt;Here, we are given that in five independent Bernoulli trials from above
+Bernoulli process, three successes and two failures were observed.
+Calculate the maximum likelihood estimates of p in this situation.&lt;/p&gt;
+&lt;p&gt;From part a, we know that
+$\hat{p} = \frac{\sum_{i = 1}^{n} y_i}{n}$.&lt;/p&gt;
+&lt;p&gt;Here, because we had 3 successes and 2 failures,
+$\sum_{i = 1}^{n} y_i = 3$ as in the question, we are given that
+1 = &lt;em&gt;s&lt;strong&gt;u&lt;/strong&gt;c&lt;strong&gt;c&lt;/strong&gt;e&lt;strong&gt;s&lt;/strong&gt;s&lt;/em&gt; and 0 = &lt;em&gt;f&lt;strong&gt;a&lt;/strong&gt;i&lt;strong&gt;l&lt;/strong&gt;u&lt;strong&gt;r&lt;/strong&gt;e&lt;/em&gt;. Also, because
+there are 5 trials, we have &lt;em&gt;n&lt;/em&gt; = 5.&lt;/p&gt;
+&lt;p&gt;$$ \therefore \hat{p} = \frac{\sum_{i = 1}^{n} y_i}{n} = \frac{3}{5}$$
+.&lt;/p&gt;
+&lt;h4 id=&#34;part-c&#34;&gt;Part c:&lt;/h4&gt;
+&lt;p&gt;Here, we want to plot the log-likelihood for the data in part(b) by
+performing a grid search over a set of possible values of p parameter.
+Then, we want to add a vertical line to the plot at the value of p that
+maximizes the log-likelihood.&lt;/p&gt;
+&lt;p&gt;Firstly, we will be creating a log-likelihood function. Then, we define
+the possible set of values our parameter &lt;em&gt;p&lt;/em&gt; can take. Once we have
+that, we will find the loglikelihood for all possible parameter values
+and then find &lt;em&gt;p&lt;/em&gt; for which it is the largest.&lt;/p&gt;
+&lt;p&gt;While doing all of this, we will plot the log-likelihood function and
+then add a vertical line to the plot at the value of &lt;em&gt;p&lt;/em&gt; that maximizes
+the log-likelihood.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Defining the log-likelihood function
+log_lik_func &amp;lt;- function(x, p = 3, n = 5) { p*log(x) + (n-p)*log(1-x)}
+
+# Values our parameter can take
+param_values &amp;lt;- seq(0,1, by = 0.2) 
+
+# Finding log-likelihood for all possible values of parameter
+val &amp;lt;- sapply(param_values , log_lik_func)
+val
+
+## [1]      -Inf -5.274601 -3.770523 -3.365058 -3.888306      -Inf
+
+# Parameter value for which we have maximum log-likelihood
+param_values[which.max(val)]
+
+## [1] 0.6
+
+# plot of log-likelihood
+curve(log_lik_func, from = 0, to = 1)
+points(param_values, val, col = &#39;blue&#39;, pch = 20) 
+points(param_values[which.max(val)], val[which.max(val)], col = &#39;red&#39;, pch = 19) 
+abline(v = param_values[which.max(val)], col = &#39;red&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_4_updated_files/figure-markdown_strict/1c-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;question-2&#34;&gt;Question 2:&lt;/h3&gt;
+&lt;p&gt;Here, we have a case of simple logistic regression where Y is a binary
+dependent variable and X is the predictor variable with sample data
+(&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;),(&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;, &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;),…,(&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;&lt;em&gt;n&lt;/em&gt;&lt;/sub&gt;, &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;n&lt;/em&gt;&lt;/sub&gt;).
+Binary outcomes are modelled as Bernoulli trials as in Question 1 above.
+Moreover,
+&lt;em&gt;f&lt;/em&gt;(&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;|&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;)=&lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;&lt;sup&gt;&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;&lt;/sup&gt;(1 − &lt;em&gt;p&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;)&lt;sup&gt;1 − &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt;&lt;/sup&gt;; &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sub&gt; ∈ {0, 1; 1 = &lt;em&gt;Y&lt;strong&gt;e&lt;/strong&gt;s&lt;/em&gt;}
+$$ p_i = \frac{e^{{\beta_0}+{\beta_1x_i}}}{1+e^{{\beta_0}+{\beta_1x_i}}} $$&lt;/p&gt;
+&lt;h4 id=&#34;part-a-1&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Here, we want to derive the log-likelihood function &lt;em&gt;l&lt;/em&gt;(&lt;em&gt;β&lt;/em&gt;), where
+&lt;em&gt;β&lt;/em&gt; = (&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt;, &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;).&lt;/p&gt;
+&lt;p&gt;So, here, firstly our likelihood function is as follows:
+$$ L(\beta) = \prod_{i=1}^{n}p_i^{y_i} (1-p_i)^{1-y_i}  $$
+So, from this, our log-likelihood function is as follows:
+$$
+\begin{aligned}
+l(\beta_0,\beta_1) &amp;amp;= \sum_{i=1}^{n} y_i \log(p_i) +  \sum_{i=1}^{n} (1-y_i) \log(1 - p_i)  \\&lt;br&gt;
+&amp;amp;= \sum_{i=1}^{n} \log(1-p_i) +  \sum_{i=1}^{n} y_i \log\frac{p_i}{(1 - p_i)} \\&lt;br&gt;
+&amp;amp;= \sum_{i=1}^{n} \log(1-p_i) +  \sum_{i=1}^{n} y_i (\beta_0 + \beta_1 x_i) \\&lt;br&gt;
+&amp;amp;= \sum_{i=1}^{n} \log(1-(\frac{e^{{\beta_0}+{\beta_1x_i}}}{1+e^{{\beta_0}+{\beta_1x_i}}})) +  \sum_{i=1}^{n} y_i (\beta_0 + \beta_1 x_i) \\&lt;br&gt;
+&amp;amp;= \sum_{i=1}^{n} \log(\frac{1}{1+e^{{\beta_0}+{\beta_1x_i}}}) +  \sum_{i=1}^{n} y_i (\beta_0 + \beta_1 x_i) \\&lt;br&gt;
+&amp;amp;= \sum_{i=1}^{n} \log{1} - \log{(1+e^{{\beta_0}+{\beta_1x_i}}}) +  \sum_{i=1}^{n} y_i (\beta_0 + \beta_1 x_i) \\&lt;br&gt;
+\end{aligned}
+$$&lt;/p&gt;
+&lt;p&gt;Now, log1 = 0. So, our log-likelihood function is:
+$$ l(\beta_0,\beta_1) = -\sum_{i=1}^{n}\log{(1+e^{{\beta_0}+{\beta_1x_i}}}) +  \sum_{i=1}^{n} y_i (\beta_0 + \beta_1 x_i) $$&lt;/p&gt;
+&lt;h4 id=&#34;part-b-1&#34;&gt;Part b:&lt;/h4&gt;
+&lt;p&gt;Here, we want to write function ll() which calculates the
+log-likelihood. For this, we will be using our result from part a.&lt;/p&gt;
+&lt;p&gt;Here, in the output, we add a negative sign to the function we get from
+part a. This is because we will be using this function in optim()
+function. Now, optim() minimizes the function by default. But we want
+parameters that maximize it.&lt;/p&gt;
+&lt;p&gt;So, we will be returning &amp;ldquo;-log-likelihood&amp;rdquo; which on minimizing will give
+the values of parameter which maximize log-likelihood.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ll &amp;lt;- function(x, y, beta) {
+  # parameter 1
+  b_0 = beta[1]
+  
+  # parameter 2
+  b_1 = beta[2]
+  
+  n = length(x)
+  t &amp;lt;- replicate(length(x), 0)
+  t2 &amp;lt;- replicate(length(x), 0)
+  
+  # term 1 from the log-likelihood function from part a:
+  term_1 = 0
+  
+  # term 2 from the log-likelihood function from part a:
+  term_2 = 0
+  
+    for(i in 1:n){
+      t[i] = -log(1 + exp(b_0 + ((b_1)*x[i])))
+      term_1 = term_1 + t[i]
+      t2[i] = y[i]*(b_0 + (b_1*x[i]))
+      term_2 = term_2 + t2[i]
+    }
+  
+  # This is our log-likelihood function
+  log_likelihood &amp;lt;- (term_1 + term_2)
+  
+  # Later, we will be using this function in optim() function. Now, optim() minimizes the 
+  # function by default. So, we will be returning &amp;quot;-log-likelihood&amp;quot; which on minimizing  
+  # will give the values of parameter which maximize log-likelihood
+  -(term_1 + term_2)
+  
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;part-c-1&#34;&gt;Part c:&lt;/h4&gt;
+&lt;p&gt;Here, using the default dataset in the book, we want to fit a logistic
+regression model to predict default given balance as a predictor using
+glm().&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# model generation
+glm_mod &amp;lt;- glm(default ~ balance, data = Default, family = binomial)
+summary(glm_mod)
+
+## 
+## Call:
+## glm(formula = default ~ balance, family = binomial, data = Default)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -2.2697  -0.1465  -0.0589  -0.0221   3.7589  
+## 
+## Coefficients:
+##               Estimate Std. Error z value Pr(&amp;gt;|z|)    
+## (Intercept) -1.065e+01  3.612e-01  -29.49   &amp;lt;2e-16 ***
+## balance      5.499e-03  2.204e-04   24.95   &amp;lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 2920.6  on 9999  degrees of freedom
+## Residual deviance: 1596.5  on 9998  degrees of freedom
+## AIC: 1600.5
+## 
+## Number of Fisher Scoring iterations: 8
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;part-d&#34;&gt;Part d:&lt;/h4&gt;
+&lt;p&gt;Here, we want to use optim() function together with ll() and initial
+parameter estimates as zero to calculate maximum likelihood estimates of
+regression coefficients in part c.&lt;/p&gt;
+&lt;p&gt;In our data, the response variable &amp;ldquo;default&amp;rdquo; is of datatype factor. As a
+result, we will first convert that to 0&amp;rsquo;s and 1&amp;rsquo;s with 1 being default
+and 0 being non-default.&lt;/p&gt;
+&lt;p&gt;Following that, we will convert this to a vector as manipulating factors
+is a bit tricky.&lt;/p&gt;
+&lt;p&gt;Finally, we use optim function to find the parameter values which
+maximize log-likelihood function starting from (0,0) as the parameter
+values. By default, optim function minimizes the function but we wanted
+to find parameter values which maximize the log-likelihood. As a result,
+we earlier added a negative sign in the output of log-likelihood so that
+the result given by optim function fits our requirement.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Convert factor levels to 0 and 1
+output_default &amp;lt;- Default$default
+levels(output_default)[1]&amp;lt;-&amp;quot;0&amp;quot;
+levels(output_default)[2]&amp;lt;-&amp;quot;1&amp;quot;
+
+# Change to a vector
+output_default &amp;lt;- as.numeric(as.character(output_default))
+
+# Using optim function on log-likelihood to find parameters, starting from (0,0)
+optim(c(0,0), ll,x = Default$balance, y = output_default)
+
+## $par
+## [1] -10.652058220   0.005499188
+## 
+## $value
+## [1] 798.2259
+## 
+## $counts
+## function gradient 
+##      107       NA 
+## 
+## $convergence
+## [1] 0
+## 
+## $message
+## NULL
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;part-e&#34;&gt;Part e:&lt;/h4&gt;
+&lt;p&gt;Based on our outputs from part (c) and part (d), we can say that maximum
+likelihood estimates obtained using optim() function are very similar to
+the ones obtained using glm() function.&lt;/p&gt;
+&lt;h4 id=&#34;part-f&#34;&gt;Part f:&lt;/h4&gt;
+&lt;p&gt;Here, we want to calculate the standard errors of our estimates. As
+provided in the question, we can include parameter option &amp;lsquo;hessian =
+TRUE&amp;rsquo; in the function optim() when we call the function optim() in part
+d.&lt;/p&gt;
+&lt;p&gt;But here, , we see that if we invert the Hessian matrix using the
+default method in optim, we get negative numbers on the diagonal. So,
+taking their square roots will not be possible.&lt;/p&gt;
+&lt;p&gt;As a result, we will use Quasi Newton method, specifically the &amp;lsquo;BFGS&amp;rsquo;
+method as those methods are used when Hessian is unavailable.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Hessian_mat &amp;lt;- optim(c(0,0), ll,x = Default$balance, y = output_default, hessian = TRUE, 
+                       method = &#39;BFGS&#39;)$hessian
+
+# Now, we find the inverse of this and then we take the square root of the diagonal.
+std_err_est &amp;lt;- sqrt(diag(solve(Hessian_mat)))
+std_err_est
+
+## [1] 0.3378529809 0.0002296589
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;part-g&#34;&gt;Part g:&lt;/h4&gt;
+&lt;p&gt;Bases on the outputs we have from part (c) and (f), we can say that
+standard errors of the MLE obtained using optim() and glm() are very
+similar.&lt;/p&gt;
+&lt;h3 id=&#34;question-3&#34;&gt;Question 3&lt;/h3&gt;
+&lt;h4 id=&#34;part-a-2&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Here, using the summary and glm functions, we want to determine the
+estimated standard errors for the coefficients associated with income
+and balance in a multiple logistic regression model.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(100)
+fit1 &amp;lt;- glm(default ~ income + balance, data=Default, family=binomial)
+summary(fit1)
+
+## 
+## Call:
+## glm(formula = default ~ income + balance, family = binomial, 
+##     data = Default)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -2.4725  -0.1444  -0.0574  -0.0211   3.7245  
+## 
+## Coefficients:
+##               Estimate Std. Error z value Pr(&amp;gt;|z|)    
+## (Intercept) -1.154e+01  4.348e-01 -26.545  &amp;lt; 2e-16 ***
+## income       2.081e-05  4.985e-06   4.174 2.99e-05 ***
+## balance      5.647e-03  2.274e-04  24.836  &amp;lt; 2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 2920.6  on 9999  degrees of freedom
+## Residual deviance: 1579.0  on 9997  degrees of freedom
+## AIC: 1585
+## 
+## Number of Fisher Scoring iterations: 8
+
+sum_coef &amp;lt;- rbind(summary(fit1)$coef[1:3,1:2])
+knitr::kable(sum_coef, caption = &amp;quot;Estimate and Standard Error of the model&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Estimate and Standard Error of the model&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Estimate&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Std. Error&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;(Intercept)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-11.5404684&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.4347564&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;income&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0000208&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0000050&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;balance&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0056471&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0002274&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Therefore, the estimated standard errors for &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; is
+&lt;strong&gt;4.347564e-01&lt;/strong&gt;, for &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, which is the coefficient
+associated with income, is &lt;strong&gt;4.985167e-06&lt;/strong&gt; and that for
+&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;, which is the coefficient associated with balance, is
+&lt;strong&gt;2.273731e-04&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;part-b-2&#34;&gt;Part b:&lt;/h4&gt;
+&lt;p&gt;Here, we want to write a function that takes as input the Default data
+set as well as index of observations and then outputs the coefficient
+estimates for income and balance in the multiple logistic regression
+model.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(100)
+boot.fn &amp;lt;- function(data_set, index){
+  fit2 &amp;lt;- glm(default ~ income + balance, data=data_set, subset = index, family=binomial)
+  return(coef(fit2))
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;part-c-2&#34;&gt;Part c:&lt;/h4&gt;
+&lt;p&gt;Here, we want to use the boot() function together with our boot.fn() to
+estimate the standard errors of the logistic regression coefficients for
+income and balance.&lt;/p&gt;
+&lt;p&gt;For R = 1000 replications&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;par(mfrow = c(3,2))
+set.seed(100)
+results &amp;lt;- boot(Default, boot.fn, 1000)
+results
+
+## 
+## ORDINARY NONPARAMETRIC BOOTSTRAP
+## 
+## 
+## Call:
+## boot(data = Default, statistic = boot.fn, R = 1000)
+## 
+## 
+## Bootstrap Statistics :
+##          original        bias     std. error
+## t1* -1.154047e+01 -2.927307e-02 4.446538e-01
+## t2*  2.080898e-05 -3.481513e-08 4.916633e-06
+## t3*  5.647103e-03  1.665079e-05 2.318937e-04
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So, here, standard error for &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; is &lt;strong&gt;4.276469e-01&lt;/strong&gt;, for
+&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;, which is the coefficient associated with income, is
+&lt;strong&gt;4.890019e-06&lt;/strong&gt; and that for &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;, which is the coefficient
+associated with balance, is &lt;strong&gt;2.250900e-04&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&#34;part-d-1&#34;&gt;Part d:&lt;/h4&gt;
+&lt;p&gt;Here, we want to comment on the estimated standard errors obtained using
+the glm() function and using bootstrap function.&lt;/p&gt;
+&lt;p&gt;So, based on the results we have, the estimated standard errors obtained
+by the two methods are pretty close.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/assignment_5_updated/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/assignment_5_updated/</guid>
+      <description>&lt;h3 id=&#34;question-1&#34;&gt;Question 1&lt;/h3&gt;
+&lt;p&gt;Here, we want to explore the fact that ridge regression tends to give
+similar coefficient values to correlated variables, whereas lasso may
+give quite different coefficient values to correlated variables.&lt;/p&gt;
+&lt;p&gt;In this question, we are provided that &lt;em&gt;n&lt;/em&gt; = 2, &lt;em&gt;p&lt;/em&gt; = 2,
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; = &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt; and
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt;. Furthermore, we are also given that
+&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; + &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = 0,
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; + &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = 0 and
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt; + &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt; = 0. As a result, the estimate for
+the intercept in a least squares, ridge regression or lasso model is
+zero: $\hat{\beta_0} = 0$&lt;/p&gt;
+&lt;h4 id=&#34;part-a&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Here, we want to write out the ridge regression optimization problem in
+this setting.&lt;/p&gt;
+&lt;p&gt;So, we want to minimize:&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt; + (&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;λ&lt;/em&gt;(&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;)&lt;/p&gt;
+&lt;p&gt;Now, we know that &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; = &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt; and
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt;. So, substituting &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt;
+as &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; and &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt; as &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt;, our
+function to be minimized becomes,&lt;/p&gt;
+&lt;p&gt;Now, we know that &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; + &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = 0. Therefore,
+&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = −&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;. Moreover, we also know that
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; + &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = 0. So,
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = −&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt;. So, substituting this, our problem
+becomes,&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt; + ( − (&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt;))&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;λ&lt;/em&gt;(&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;sup&gt;2&lt;/sup&gt;)
+which is,&lt;/p&gt;
+&lt;p&gt;$$\boxed{2(y_1 - ({\beta_1} +  {\beta_2})x_{11})^2 + \lambda ({\beta_1}^2 + {\beta_2}^2)}$$&lt;/p&gt;
+&lt;h4 id=&#34;part-b&#34;&gt;Part b:&lt;/h4&gt;
+&lt;p&gt;Here, to find the coefficient estimates for ridge regression, we first
+differentiate result (A) from part (a) with respect to
+$\hat{\beta_1}$ and $\hat{\beta_2}$, set both of them to zero and
+then solve for $\hat{\beta_1}$ and $\hat{\beta_2}$&lt;/p&gt;
+&lt;p&gt;Differentiating with respect to $\hat{\beta_1}$ and setting it to 0,
+we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + 2\lambda \hat{\beta_1} = 0$$&lt;/p&gt;
+&lt;p&gt;Therefore,&lt;/p&gt;
+&lt;p&gt;Similarly, differentiating with respect to $\hat{\beta_2}$ and
+setting it to 0, we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + 2\lambda \hat{\beta_2} = 0$$&lt;/p&gt;
+&lt;p&gt;Therefore,&lt;/p&gt;
+&lt;p&gt;Now, to solve for $\hat{\beta_1}$ and $\hat{\beta_2}$, we compare
+equation (B) and equation (C). Comparing that, we get:
+$$\hat{\beta_1} = \hat{\beta_2}$$&lt;/p&gt;
+&lt;h4 id=&#34;part-c&#34;&gt;Part c:&lt;/h4&gt;
+&lt;p&gt;Here, we want to write out the lasso optimization problem in this
+setting.&lt;/p&gt;
+&lt;p&gt;So, we want to minimize:&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt; + (&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;λ&lt;/em&gt;(|&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;|+|&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;|)&lt;/p&gt;
+&lt;p&gt;Now, we know that &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; = &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt; and
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt;. So, substituting &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;12&lt;/sub&gt;
+as &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; and &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;22&lt;/sub&gt; as &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt;, our
+function to be minimized becomes,&lt;/p&gt;
+&lt;p&gt;Now, we know that &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; + &lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = 0. Therefore,
+&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = −&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;. Moreover, we also know that
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; + &lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = 0. So,
+&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;21&lt;/sub&gt; = −&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt;. So, substituting this, our problem
+becomes,&lt;/p&gt;
+&lt;p&gt;(&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt;)&lt;sup&gt;2&lt;/sup&gt; + ( − (&lt;em&gt;y&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt; − &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sub&gt;11&lt;/sub&gt;))&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;λ&lt;/em&gt;(|&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;|+|&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;|)
+which is,&lt;/p&gt;
+&lt;p&gt;$$\boxed{2(y_1 - ({\beta_1} +  {\beta_2})x_{11})^2 + \lambda (|{\beta_1}| + |{\beta_2}|)}$$&lt;/p&gt;
+&lt;h4 id=&#34;part-d&#34;&gt;Part d:&lt;/h4&gt;
+&lt;p&gt;Here, we want to show that for the optimization problem in part (c), the
+Lasso coefficients are not unique and then show the solutions. Now, in
+part (c), we see that the optimization problem has absolute values. So,
+understanding how to differentiate them is the first important step.&lt;/p&gt;
+&lt;p&gt;From basic calculus, we know that:&lt;/p&gt;
+&lt;p&gt;$$
+\frac{d}{{dx}}|u| = \frac{d}{{dx}}\sqrt {{{{u}}^2}}  = \frac {u \times u&amp;rsquo;}{|u|},  u \neq 0
+$$&lt;/p&gt;
+&lt;p&gt;So, from part (c), we differentiate equation D with respect to
+$\hat{\beta_1}$ and $\hat{\beta_2}$ and set them to 0.
+Differentiating with respect to $\hat{\beta_1}$ and setting it to 0,
+we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + \frac{\lambda \hat{\beta_1}}{|\hat{\beta_1|}} = 0$$&lt;/p&gt;
+&lt;p&gt;Similarly, differentiating with respect to $\hat{\beta_2}$ and
+setting it to 0, we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + \frac{\lambda \hat{\beta_2}}{|\hat{\beta_2}|} = 0$$&lt;/p&gt;
+&lt;p&gt;Now, equating the above two equations, we get:
+$$ \frac{\lambda \hat{\beta_1}}{|\hat{\beta_1}|} = \frac{\lambda \hat{\beta_2}}{|\hat{\beta_2}|} $$
+which implies,
+$$ \frac{\hat{\beta_1}}{|\hat{\beta_1}|} = \frac{\hat{\beta_2}}{|\hat{\beta_2}|} $$&lt;/p&gt;
+&lt;p&gt;from which we can see that both $\hat{\beta}_1$, $\hat{\beta}_2$
+take the same sign and that there are many possible solutions to this
+optimization problem.&lt;/p&gt;
+&lt;p&gt;Now, we know an alternative form of Lasso regression which is:
+$$ \underset{\boldsymbol{\beta}}{\mathrm{argmin}} ((y_1 - \hat{\beta_1}x_{11} -  \hat{\beta_2}x_{12})^2 + (y_2 - \hat{\beta_1}x_{21} -  \hat{\beta_2}x_{22})^2) $$
+subject to
+$$| \hat{\beta}_1 | + | \hat{\beta}_2 | \le s $$&lt;/p&gt;
+&lt;p&gt;The above form says that the lasso coefficients are the ones that have
+the smallest RSS out of all points that lie within the diamond defined
+by $| \hat{\beta}_1 | + | \hat{\beta}_2 | \le s$.&lt;/p&gt;
+&lt;p&gt;And the point with smallest RSS will be the first point at which the
+contours of RSS intersects the diamond defined by
+$| \hat{\beta}_1 | + | \hat{\beta}_2 | \le s$.&lt;/p&gt;
+&lt;p&gt;As it is first point of intersection, it will be a point on diamond and
+so, our solution is: $| \hat{\beta}_1 | + | \hat{\beta}_2 | = s$,
+which can be furthur expanded to:
+$$\hat{\beta}_1 + \hat{\beta}_2 = s; \hat{\beta}_1 \geq 0; \hat{\beta}_2 \geq 0$$
+and
+$$\hat{\beta}_1 + \hat{\beta}_2 = -s; \hat{\beta}_1 \leq 0; \hat{\beta}_2 \leq 0$$&lt;/p&gt;
+&lt;h3 id=&#34;question-2&#34;&gt;Question 2&lt;/h3&gt;
+&lt;p&gt;Here, in this exercise, we will generate simulated data and then will
+use this data to perform best model selection. Firstly, we generate a
+predictor X of length n=100, as well as a noise vector &lt;em&gt;ϵ&lt;/em&gt; of length
+n=100 such that &lt;em&gt;ϵ&lt;/em&gt; = 0.1 * rnorm()&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(19)
+
+#  Generating X vector
+X &amp;lt;- rnorm(100)
+
+# Generating noise vector
+noise_vec &amp;lt;- 0.1 * rnorm(100)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;part-a-1&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Here, we want to generate Y of length n = 100 according to the model:
+&lt;em&gt;Y&lt;/em&gt; = &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;X&lt;/em&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;X&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;3&lt;/sub&gt;&lt;em&gt;X&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt; + &lt;em&gt;ϵ&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;In the question we are provided that &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt;, &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;,
+&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; and &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;3&lt;/sub&gt; are constants such that
+&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; = 1.0, &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; = −0.1, &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = 0.05
+and &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;3&lt;/sub&gt; = 0.75&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Setting  the coefficients
+b_0 &amp;lt;- 1
+b_1 &amp;lt;- -0.1
+b_2 &amp;lt;- 0.05
+b_3 &amp;lt;- 0.75
+
+# Generating the response vector Y
+Y &amp;lt;- b_0 + b_1*(X) + b_2*(X^2) + b_3*(X^3) + noise_vec
+
+# We will just have a look at the first five elements of Y to make sure things are in place
+head(Y)
+
+## [1] 0.006657125 1.258462915 1.133378061 0.960502028 1.704702553 1.107916455
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4 id=&#34;part-b-1&#34;&gt;Part b:&lt;/h4&gt;
+&lt;p&gt;Here, we want to use regsubsets() function to perform best subset
+selection in order to choose the best model containing the predictors
+&lt;em&gt;X&lt;/em&gt;, &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;,&amp;hellip;,&lt;em&gt;X&lt;/em&gt;&lt;sup&gt;8&lt;/sup&gt; using the measures
+&lt;em&gt;C&lt;/em&gt;&lt;sub&gt;&lt;em&gt;p&lt;/em&gt;&lt;/sub&gt;, &lt;em&gt;B&lt;strong&gt;I&lt;/strong&gt;C&lt;/em&gt; and Adjusted &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;mod &amp;lt;- regsubsets(Y~poly(X,8,raw = TRUE), data = data.frame(X,Y), nvmax = 8)
+
+# summary of the regsubsets() gives us the best model for each number of predictor
+# and its respective characteristics including Cp, BIC, RSS, Adjusted R-squared
+reg.summary &amp;lt;- summary(mod)
+
+par(mfrow=c(2,2))
+
+# Finding the index for which we have minimum Cp as for determining best model, 
+# we select the one with lowest Cp
+cp_min &amp;lt;- which.min(reg.summary$cp)  
+
+# Plotting Cp vs number of predictors
+plot(reg.summary$cp, xlab=&amp;quot;Number of Predictors&amp;quot;, ylab=&amp;quot;Best Subset Cp&amp;quot;, type=&amp;quot;l&amp;quot;)
+
+# Highlighting the point for which we have minimum Cp
+points(cp_min, reg.summary$cp[cp_min], col=&amp;quot;red&amp;quot;, pch=16)
+
+# Finding the index for which we have minimum BIC as for determining the best model,
+# we select the one with lowest BIC
+bic_min &amp;lt;- which.min(reg.summary$bic)  
+
+# Plotting BIC vs number of predictors
+plot(reg.summary$bic, xlab=&amp;quot;Number of Predictors&amp;quot;, ylab=&amp;quot;Best Subset BIC&amp;quot;, type=&amp;quot;l&amp;quot;)
+
+# Highlighting the point for which we have minimum BIC
+points(bic_min, reg.summary$bic[bic_min], col=&amp;quot;red&amp;quot;, pch=16)
+
+# Finding the index for which we have maximum Adjusted R-squared as for determining 
+# the best model, we select the one with maximum Adjusted R-squared
+adjr2_max &amp;lt;- which.max(reg.summary$adjr2) 
+
+# Plotting Adjusted R-squared vs number of predictors
+plot(reg.summary$adjr2, xlab=&amp;quot;Number of Predictors&amp;quot;, ylab=&amp;quot;Best Subset 
+     Adjusted R^2&amp;quot;, type=&amp;quot;l&amp;quot;)
+
+# Highlighting the point for which we have maximum adjusted R-squared
+points(adjr2_max, reg.summary$adjr2[adjr2_max], col=&amp;quot;red&amp;quot;, pch=16)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2b-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Now that we have this, we want to know model coefficients from each of
+&lt;em&gt;C&lt;/em&gt;&lt;sub&gt;&lt;em&gt;p&lt;/em&gt;&lt;/sub&gt;, &lt;em&gt;B&lt;strong&gt;I&lt;/strong&gt;C&lt;/em&gt; and Adjusted &lt;em&gt;R&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;knitr::kable(coef(mod, cp_min), caption = &amp;quot;Coefficients for model based on Cp&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Coefficients for model based on Cp&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;x&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;(Intercept)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.0066155&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.0839368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0576914&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.7496948&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;knitr::kable(coef(mod, bic_min), caption = &amp;quot;Coefficients for model based on BIC&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Coefficients for model based on BIC&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;x&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;(Intercept)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.0066155&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.0839368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0576914&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.7496948&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre&gt;&lt;code&gt;knitr::kable(coef(mod, adjr2_max), caption = &amp;quot;Coefficients for model based on Adjusted R-squared&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Coefficients for model based on Adjusted R-squared&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;x&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;(Intercept)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.0039223&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.1087415&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0618556&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.7696595&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(X, 8, raw = TRUE)5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.0026123&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Based on the above table, we observe that if we select our model based
+on &lt;em&gt;C&lt;/em&gt;&lt;sub&gt;&lt;em&gt;p&lt;/em&gt;&lt;/sub&gt;, our intercept will be 1.0066, coefficient of &lt;em&gt;X&lt;/em&gt;
+will be -0.0839, that of &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; will be 0.0577 and that of
+&lt;em&gt;X&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt; will be 0.7498.&lt;/p&gt;
+&lt;p&gt;If we select our model based on &lt;em&gt;B&lt;strong&gt;I&lt;/strong&gt;C&lt;/em&gt;, our intercept will be 1.0066,
+coefficient of &lt;em&gt;X&lt;/em&gt; will be -0.0839, that of &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; will be
+0.0577 and that of &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt; will be 0.7498.&lt;/p&gt;
+&lt;p&gt;Finally, if we select our model based on Adjusted R-squared, our
+intercept will be 1.0039, coefficient of &lt;em&gt;X&lt;/em&gt; will be -0.1087, that of
+&lt;em&gt;X&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; will be 0.0619, that of &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt; will be 0.7697
+and that of &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;5&lt;/sup&gt; will be -0.0026.&lt;/p&gt;
+&lt;p&gt;Now, here, it may seem a bit strange to see Adjusted R-squared selecting
+4 predictors. However, if we see at its plot, we can see that after you
+select 3 predictors, there is not a substantial improvement in adjusted
+R-squared as you add another predictor. So, we can potentially have
+model with 4 predictors as well.&lt;/p&gt;
+&lt;h4 id=&#34;part-c-1&#34;&gt;Part c:&lt;/h4&gt;
+&lt;p&gt;Here, we want to fit a ridge regression model to the simulated data,
+again using X, &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;, &amp;hellip; , &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;8&lt;/sup&gt; as predictors.&lt;/p&gt;
+&lt;p&gt;Firstly, we want to plot the extracted coefficients as a function of
+&lt;em&gt;l&lt;strong&gt;o&lt;/strong&gt;g&lt;/em&gt;(&lt;em&gt;λ&lt;/em&gt;) with a legend containing each curve color and its
+predictor name in the top right corner.&lt;/p&gt;
+&lt;p&gt;Here, in the plot, the numbers on the top scale are the number of
+coefficients at that weight that are not zero.&lt;/p&gt;
+&lt;p&gt;In the legend &amp;ldquo;poly(x, 8, raw = T)i&amp;rdquo; refers to &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sup&gt;. So,
+the corresponding lines represent the coefficients of &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sup&gt;
+for that particular value of log(lambda).&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Getting data into a data frame
+data_final = data.frame(y = Y, x = X)
+
+# Now, we use model.matrix() to create x. It will generate a matrix corresponding to our 
+# 8 predictors. Also, if there are any qualitative variables, it will transform them 
+# into dummy variables as glmnet() can only take numerical, quantitative inputs
+xmat = model.matrix(y ~ poly(x, 8, raw = T), data = data_final)[, -1]
+
+# Applying ridge regression
+mod.ridge = glmnet(xmat, Y, alpha = 0)
+
+# We specify &amp;quot;xvar = lambda&amp;quot; as by default, it plots coefficients against l1 norm
+plot(mod.ridge, xvar = &amp;quot;lambda&amp;quot;, label = TRUE)
+legend(&amp;quot;topright&amp;quot;, lwd = 1, col = 1:8, legend = colnames(xmat), cex = .5)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d3-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now that we have the plot, we want to plot the cross-validation error as
+a function of &lt;em&gt;l&lt;strong&gt;o&lt;/strong&gt;g&lt;/em&gt;(&lt;em&gt;λ&lt;/em&gt;) to find optimal &lt;em&gt;λ&lt;/em&gt;. Following that, we
+also want coefficient estimates for that particular value of &lt;em&gt;λ&lt;/em&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Setting the seed
+set.seed(20)
+
+# Running the cross validation model with 10 folds by default.
+mod_cv_2 = cv.glmnet(xmat, Y, alpha = 0)
+
+# Plotting Cross Validation model automatically plots cross-validation error as 
+# a function of log(lambda). Here, there are two lambda&#39;s indicated by vertical line. 
+# One is minimum mean cross validation error. Other one gives most regularized model 
+# such that error is within one standard error of minimum
+plot(mod_cv_2, xvar = &amp;quot;lambda&amp;quot;, label = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d4-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# To find the optimal lambda, we extract the one with minimum mean cross validation error.
+mod_cv_2$lambda.min
+
+## [1] 2.563188
+
+# Getting the coefficient estimates for optimal lambda
+x &amp;lt;- (predict(mod.ridge,s = mod_cv_2$lambda.min, type = &amp;quot;coefficients&amp;quot;))
+knitr::kable(as.data.frame(as.matrix(x)), caption = &amp;quot;Coefficient for Ridge 
+             Regression model with optimal lambda&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Coefficient for Ridge Regression model with optimal lambda&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;1&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;(Intercept)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.0123824&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.5445252&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;-0.0050818&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.1891529&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0031130&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0241447&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0011441&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)7&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0023368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0002151&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;part-d-1&#34;&gt;Part d:&lt;/h4&gt;
+&lt;p&gt;Here, we want to fit a lasso regression model to the simulated data,
+again using X, &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt;, &amp;hellip; , &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;8&lt;/sup&gt; as predictors.&lt;/p&gt;
+&lt;p&gt;Firstly, we want to plot the extracted coefficients as a function of
+&lt;em&gt;l&lt;strong&gt;o&lt;/strong&gt;g&lt;/em&gt;(&lt;em&gt;λ&lt;/em&gt;) with a legend containing each curve color and its
+predictor name in the top right corner.&lt;/p&gt;
+&lt;p&gt;Here, in the plot, the numbers on the top scale are the number of
+coefficients at that weight that are not zero.&lt;/p&gt;
+&lt;p&gt;In the legend &amp;ldquo;poly(x, 8, raw = T)i&amp;rdquo; refers to &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sup&gt;. So,
+the corresponding lines represent the coefficients of &lt;em&gt;X&lt;/em&gt;&lt;sup&gt;&lt;em&gt;i&lt;/em&gt;&lt;/sup&gt;
+for that particular value of log(lambda).&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Getting data into a data frame
+data_final = data.frame(y = Y, x = X)
+
+# Now, we use model.matrix() to create x. It will generate a matrix corresponding to our
+# 8 predictors. Also, if there are any qualitative variables, it will transform them 
+# into dummy variables as glmnet() can only take numerical, quantitative inputs.
+x_mat = model.matrix(y ~ poly(x, 8, raw = T), data = data_final)[, -1]
+
+# Applying lasso regression
+mod.lasso = glmnet(x_mat, Y, alpha = 1)
+
+# We specify &amp;quot;xvar = lambda&amp;quot; as by default, it plots coefficients against l1 norm.
+plot(mod.lasso, xvar = &amp;quot;lambda&amp;quot;, ylim = c(0,1), label = TRUE) 
+legend(&amp;quot;topright&amp;quot;, lwd = 1, col = 1:8, legend = colnames(x_mat), cex = 0.4)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d1-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Now that we have the plot, we want to plot the cross-validation error as
+a function of &lt;em&gt;l&lt;strong&gt;o&lt;/strong&gt;g&lt;/em&gt;(&lt;em&gt;λ&lt;/em&gt;) to find optimal &lt;em&gt;λ&lt;/em&gt;. Following that, we
+also want coefficient estimates for that particular value of &lt;em&gt;λ&lt;/em&gt;.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Setting the seed
+set.seed(21)
+
+# Running the cross validation model with 10 folds by default
+mod_cv_L = cv.glmnet(xmat, Y, alpha = 1)
+
+# Plotting cross-validation model automatically plots cross-validation error as
+# a function of log(lambda). Here, there are two lambda&#39;s indicated by vertical line.
+# One is minimum mean cross validation  error. Other  one gives most regularized model
+# such that error is within one standard error of minimum.
+plot(mod_cv_L, xvar = &amp;quot;lambda&amp;quot;, label = TRUE)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_5_updated_files/figure-markdown_strict/2d2-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# To find the optimal lambda, we extract the one with minimum mean cross validation error
+mod_cv_L$lambda.min
+
+## [1] 0.02178078
+
+# Getting the coefficient estimates for optimal lambda
+y &amp;lt;- predict(mod.lasso,s = mod_cv_L$lambda.min, type = &amp;quot;coefficients&amp;quot;)
+knitr::kable(as.data.frame(as.matrix(y)), caption = &amp;quot;Coefficient for Lasso 
+             Regression model with optimal lambda&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;Coefficient for Lasso Regression model with optimal lambda&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;1&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;(Intercept)&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1.0200232&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0000000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)2&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0433211&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)3&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.7055455&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0000000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0036491&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)6&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0000000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)7&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0000000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td&gt;poly(x, 8, raw = T)8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.0000000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Example Page 1</title>
+      <link>/courses/example/assignment_6_updated/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/assignment_6_updated/</guid>
+      <description>&lt;h3 id=&#34;question-1&#34;&gt;Question 1:&lt;/h3&gt;
+&lt;h4 id=&#34;part-a&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Here, for all &lt;em&gt;x&lt;/em&gt; ≤ &lt;em&gt;ξ&lt;/em&gt; for the case of one knot, we want to find
+&lt;em&gt;f&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;x&lt;/em&gt;)=&lt;em&gt;a&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; + &lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt; + &lt;em&gt;c&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;d&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt;
+such that &lt;em&gt;f&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;x&lt;/em&gt;)=&lt;em&gt;f&lt;/em&gt;(&lt;em&gt;x&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Here,
+&lt;em&gt;f&lt;/em&gt;(&lt;em&gt;x&lt;/em&gt;)=&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;3&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;4&lt;/sub&gt;(&lt;em&gt;x&lt;/em&gt; − &lt;em&gt;ξ&lt;/em&gt;)&lt;sub&gt;+&lt;/sub&gt;&lt;sup&gt;3&lt;/sup&gt;.
+Because, &lt;em&gt;x&lt;/em&gt; ≤ &lt;em&gt;ξ&lt;/em&gt;, we know that (&lt;em&gt;x&lt;/em&gt; − &lt;em&gt;ξ&lt;/em&gt;)&lt;sub&gt;+&lt;/sub&gt;&lt;sup&gt;3&lt;/sup&gt; = 0&lt;/p&gt;
+&lt;p&gt;So, we can transform
+&lt;em&gt;f&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;x&lt;/em&gt;)=&lt;em&gt;a&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; + &lt;em&gt;b&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt; + &lt;em&gt;c&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;d&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt;
+into
+&lt;em&gt;f&lt;/em&gt;(&lt;em&gt;x&lt;/em&gt;)=&lt;em&gt;β&lt;/em&gt;&lt;sub&gt;0&lt;/sub&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;3&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt;
+when
+$$
+{\boxed{{a_1} = {\beta _0},{b_1} = {\beta _1},{c_1} = {\beta _2},{d_1} = {\beta _3}}}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;part-b&#34;&gt;Part b&lt;/h4&gt;
+&lt;p&gt;Here, we want to do the same for all &lt;em&gt;x&lt;/em&gt; &amp;gt; &lt;em&gt;ξ&lt;/em&gt;,
+$$
+\begin{aligned}{}
+f(x) &amp;amp;= {\beta _0} + {\beta _1}x + {\beta _2}{x^2} + {\beta _3}{x^3} + {\beta _4}{(x - \xi )^3}(\because x &amp;gt; \xi)\\&lt;br&gt;
+&amp;amp;= {\beta _0} + {\beta _1}x + {\beta _2}{x^2} + {\beta _3}{x^3} + {\beta _4}({x^3} + 3{\xi ^2}x - 3\xi {x^2} - {\xi ^3})\\&lt;br&gt;
+&amp;amp;= {\beta _0} + {\beta _1}x + {\beta _2}{x^2} + {\beta _3}{x^3} + {\beta _4}{x^3} + 3{\xi ^2}{\beta _4}x - 3\xi {\beta _4}{x^2} - {\xi ^3}{\beta _4}\\&lt;br&gt;
+&amp;amp;= {\beta _0} - {\xi ^3}{\beta _4} + ({\beta _1} + 3{\xi ^2}{\beta _4})x + ({\beta _2} - 3\xi {\beta _4}){x^2} + ({\beta _3} + {\beta _4}){x^3}
+\end{aligned}
+$$
+Therefore, above equation can be written as
+&lt;em&gt;f&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;(&lt;em&gt;x&lt;/em&gt;)=&lt;em&gt;a&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; + &lt;em&gt;b&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt; + &lt;em&gt;c&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;2&lt;/sup&gt; + &lt;em&gt;d&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;&lt;sup&gt;3&lt;/sup&gt;,
+when
+$$
+{\boxed{{a_2} = {\beta _0} - {\xi ^3}{\beta _4},{b_2} = {\beta _1} + 3{\xi ^2}{\beta _4},{c_2} = {\beta _2} - 3\xi {\beta _4},{d_2} = {\beta _3} + {\beta _4}}}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;part-c&#34;&gt;Part c&lt;/h4&gt;
+&lt;p&gt;Here, we want to show that &lt;em&gt;f&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;)=&lt;em&gt;f&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;) and
+therefore, f is continuous at &lt;em&gt;ξ&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;When &lt;em&gt;x&lt;/em&gt; = &lt;em&gt;ξ&lt;/em&gt;, we have:
+$$
+\begin{aligned}{}
+{f_2}(\xi) &amp;amp;= {\beta _0} - {\xi ^3}{\beta _4} + ({\beta _1} + 3{\xi ^2}{\beta _4})\xi  + ({\beta _2} - 3\xi {\beta _4}){\xi ^2} + ({\beta _3} + {\beta _4}){\xi ^3}\\&lt;br&gt;
+&amp;amp;= {\beta _0} - {\xi ^3}{\beta _4} + {\beta _1}\xi  + 3{\xi ^3}{\beta _4} + {\beta _2}{\xi ^2} - 3{\xi ^3}{\beta _4} + {\beta _3}{\xi ^3} + {\beta _4}{\xi ^3}\\&lt;br&gt;
+&amp;amp;= {\beta _0} + {\beta _1}\xi  + {\beta _2}{\xi ^2} + {\beta _3}{\xi ^3}\\&lt;br&gt;
+&amp;amp;= {f_1}(\xi)
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h4 id=&#34;part-d&#34;&gt;Part d&lt;/h4&gt;
+&lt;p&gt;Here, we want to show that &lt;em&gt;f&lt;/em&gt;′&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;)=&lt;em&gt;f&lt;/em&gt;′&lt;sub&gt;2&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;)
+and therefore, f&amp;rsquo; is continuous at &lt;em&gt;ξ&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When &lt;em&gt;x&lt;/em&gt; = &lt;em&gt;ξ&lt;/em&gt;, we have:
+$$
+\begin{aligned}{}
+{{f&amp;rsquo;}_1}(x) &amp;amp;= {\beta _1} + 2{\beta _2}x + 3{\beta _3}{x^2}\\&lt;br&gt;
+{{f&amp;rsquo;}_1}(\xi ) &amp;amp;= {\boxed{{\beta _1} + 2{\beta _2}\xi  + 3{\beta _3}{\xi ^2}}}
+\end{aligned}
+$$
+and similarly, we have:&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}{}
+{{f&amp;rsquo;}_2}(x) &amp;amp;= {\beta _1} + 3{\xi ^2}{\beta _4} + 2({\beta _2} - 3\xi {\beta _4})x + 3({\beta _3} + {\beta _4}){x^2}\\&lt;br&gt;
+&amp;amp;= {\beta _1} + 3{\xi ^2}{\beta _4} + 2{\beta _2}x - 6\xi {\beta _4}x + 3{\beta _3}{x^2} + 3{\beta _4}{x^2}\\&lt;br&gt;
+{{f&amp;rsquo;}_2}(\xi ) &amp;amp;= {\beta _1} + 2{\beta _2}\xi  + 3{\beta _4}{\xi ^2} - 6{\beta _4}{\xi ^2} + 3{\beta _3}{\xi ^2} + 3{\beta _4}{\xi ^2}\\&lt;br&gt;
+&amp;amp;= {\beta _1} + 2{\beta _2}\xi  + (3{\beta _4} - 6{\beta _4} + 3{\beta _3} + 3{\beta _4}){\xi ^2}\\&lt;br&gt;
+&amp;amp;= {\boxed{{\beta _1} + 2{\beta _2}\xi  + 3{\beta _3}{\xi ^2}}}
+\end{aligned}
+$$
+Therefore, &lt;em&gt;f&lt;/em&gt;′&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;)=&lt;em&gt;f&lt;/em&gt;′&lt;sub&gt;2&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;).&lt;/p&gt;
+&lt;h4 id=&#34;part-e&#34;&gt;Part e&lt;/h4&gt;
+&lt;p&gt;Here, we want to show that &lt;em&gt;f&lt;/em&gt;″&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;)=&lt;em&gt;f&lt;/em&gt;″&lt;sub&gt;2&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;)
+and therefore, &lt;em&gt;f&lt;/em&gt;″ is continuous at &lt;em&gt;ξ&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Taking derivatives of &lt;em&gt;f&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;x&lt;/em&gt;), we have:
+$$
+\begin{aligned}{}
+{f_1}(x) &amp;amp;= {a_1} + {b_1}x + {c_1}{x^2} + {d_1}{x^3}\\&lt;br&gt;
+{{f&amp;rsquo;}_1}(x) &amp;amp;= {b_1} + 2{c_1}x + 3{d_1}{x^2}\\&lt;br&gt;
+{{f&amp;rsquo;&#39;}_1}(x) &amp;amp;= 2{c_1} + 6{d_1}x
+\end{aligned}
+$$
+By substituting &lt;em&gt;c&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; = &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;and
+&lt;em&gt;d&lt;/em&gt;&lt;sub&gt;1&lt;/sub&gt; = &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;3&lt;/sub&gt; into above equation with &lt;em&gt;x&lt;/em&gt; = &lt;em&gt;ξ&lt;/em&gt;:
+$$
+{{f&amp;rsquo;&#39;}_1}(\xi) = {\boxed{2{\beta _2} + 6{\beta _3}\xi}}
+$$
+Similarily,
+&lt;em&gt;f&lt;/em&gt;″&lt;sub&gt;2&lt;/sub&gt;(&lt;em&gt;x&lt;/em&gt;)=2&lt;em&gt;c&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; + 6&lt;em&gt;d&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt;&lt;em&gt;x&lt;/em&gt;
+Again, by substituting
+&lt;em&gt;c&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; − 3&lt;em&gt;ξ**β&lt;/em&gt;&lt;sub&gt;4&lt;/sub&gt; and
+&lt;em&gt;d&lt;/em&gt;&lt;sub&gt;2&lt;/sub&gt; = &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;3&lt;/sub&gt; + &lt;em&gt;β&lt;/em&gt;&lt;sub&gt;4&lt;/sub&gt; into above equation
+with &lt;em&gt;x&lt;/em&gt; = &lt;em&gt;ξ&lt;/em&gt;, we have:
+$$
+\begin{aligned}{}
+{{f&amp;rsquo;&#39;}_2}(\xi) &amp;amp;= 2{\beta _2} - 6\xi {\beta _4} + 6({\beta _3} + {\beta _4})\xi\\&lt;br&gt;
+&amp;amp;= {\boxed{2{\beta _2} + 6{\beta _3}\xi}}
+\end{aligned}
+$$
+Therefore, we have &lt;em&gt;f&lt;/em&gt;″&lt;sub&gt;1&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;)=&lt;em&gt;f&lt;/em&gt;″&lt;sub&gt;2&lt;/sub&gt;(&lt;em&gt;ξ&lt;/em&gt;).&lt;/p&gt;
+&lt;h3 id=&#34;question-2&#34;&gt;Question 2:&lt;/h3&gt;
+&lt;h4 id=&#34;part-a-1&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Based on the given functions, when &lt;em&gt;λ&lt;/em&gt; → ∞, $\hat g_2$ will have
+higher order polynomial because of the order of penalty term. As a
+result, it will be more flexible resulting in a smaller bias and smaller
+training RSS as compared to $\hat g_1$.&lt;/p&gt;
+&lt;h4 id=&#34;part-b-1&#34;&gt;Part b:&lt;/h4&gt;
+&lt;p&gt;With &lt;em&gt;λ&lt;/em&gt; → ∞, as $\hat g_2$ will have higher order polynomial because
+of the order of penalty term, it may overfit the data. That will
+probably result in $\hat g_1$ having smaller test RSS compared to
+$\hat g_2$.&lt;/p&gt;
+&lt;p&gt;This is becuase higher order derivatives bring less information of the
+function. So, there exists a certain point where the decrease in bias
+cannot compensate the increase in variance. So, when &lt;em&gt;λ&lt;/em&gt; → ∞, the
+increase in variance using higher order of derivative is more than the
+decrease in bias, therefore $\hat g_1$ will have smaller test RSS
+comparing to $\hat g_2$.&lt;/p&gt;
+&lt;h4 id=&#34;part-c-1&#34;&gt;Part c:&lt;/h4&gt;
+&lt;p&gt;When &lt;em&gt;λ&lt;/em&gt; = 0, both models just fit least squares irrespective of the
+order of derivative used in minimizing $\hat g$. Therefore,
+$\hat g_1$ will have the same training and test RSS as that of
+$\hat g_2$.&lt;/p&gt;
+&lt;h3 id=&#34;question-3&#34;&gt;Question 3:&lt;/h3&gt;
+&lt;h4 id=&#34;part-a-2&#34;&gt;Part a:&lt;/h4&gt;
+&lt;p&gt;Classification Error: Classification error is the fraction of &lt;strong&gt;training
+observations&lt;/strong&gt; in the region that do not belong to the most common
+class.&lt;/p&gt;
+&lt;p&gt;It is given by:
+$$E = 1 - \underset{\boldsymbol{k}}{max} (\hat{p}_{mk}) $$&lt;/p&gt;
+&lt;p&gt;Gini Index: Gini index is the measure of total variance across all
+classes.&lt;/p&gt;
+&lt;p&gt;It is given by:
+$$G = \sum_{k = 1}^{K} \hat{p}_{mk} (1 - \hat{p}_{mk})$$&lt;/p&gt;
+&lt;p&gt;Entropy: Entropy is an alternative to Gini index and is given by:
+$$D = - \sum_{k = 1}^{K}\hat{p}_{mk} log(\hat{p}_{mk})$$&lt;/p&gt;
+&lt;h4 id=&#34;part-b-2&#34;&gt;Part b:&lt;/h4&gt;
+&lt;p&gt;Here, we want to plot the above three measures&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;p1 &amp;lt;- seq(0 + 1e-06, 1 - 1e-06, length.out = 100)
+p2 &amp;lt;- 1 - p1
+
+# error-rate:
+E &amp;lt;- 1 - apply(rbind(p1, p2), 2, max) # here, 2 indicates to apply the function to columns
+
+# Gini index:
+G &amp;lt;- p1 * (1 - p1) + p2 * (1 - p2)
+
+# entropy:
+D &amp;lt;- -(p1 * log(p1) + p2 * log(p2))
+
+plot(p1, E, type = &amp;quot;l&amp;quot;, col = &amp;quot;black&amp;quot;, xlab = &amp;quot;prob of class 1&amp;quot;, ylab = 
+       &amp;quot;value of measure&amp;quot;, ylim = c(min(c(E, G, D)), max(E, G, D)))
+lines(p1, G, col = &amp;quot;blue&amp;quot;)
+lines(p1, D, col = &amp;quot;green&amp;quot;)
+legend(&amp;quot;topright&amp;quot;, c(&amp;quot;Classification error&amp;quot;, &amp;quot;Gini index&amp;quot;, &amp;quot;entropy&amp;quot;), col = 
+         c(&amp;quot;black&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;green&amp;quot;), lty = c(1, 1), cex  = 0.5)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_6_updated_files/figure-markdown_strict/3b-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;question-4&#34;&gt;Question 4:&lt;/h3&gt;
+&lt;p&gt;We are provided 10 estimates of P(Class is red|X) which are:
+0.1,0.15,0.2,0.2,0.55,0.6,0.6,0.65,0.7,0.75&lt;/p&gt;
+&lt;p&gt;So, the respective estimates of P(Class is green|X) will be:
+0.9,0.85,0.8,0.8,0.45,0.4,0.4,0.35,0.3,0.25&lt;/p&gt;
+&lt;h4 id=&#34;majority-vote-approach&#34;&gt;Majority vote approach:&lt;/h4&gt;
+&lt;p&gt;Here, we see that 6 out of 10 observations have P(Class is red|X) &amp;gt;
+P(Class is green|X) i.e., P(Class is red|X) &amp;gt; 0.5. So, the
+classification would be &lt;strong&gt;Red&lt;/strong&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;average-probability-approach&#34;&gt;Average probability approach:&lt;/h4&gt;
+&lt;p&gt;Based on these 10 estimates, ${\hat{P}(R|X)}$ = mean of the estimates
+of P(Class is red|X). So, ${\hat{P}(R|X)} = 0.45$ . Therefore,
+${\hat{P}(G|X)} = 0.55$&lt;/p&gt;
+&lt;p&gt;So, the classification would be &lt;strong&gt;Green&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
