@@ -456,7 +456,7 @@ boxplot(Auto$displacement ~ Auto$mpg01, main = &amp;quot;Displacement vs mpg01&a
 boxplot(Auto$horsepower ~ Auto$mpg01, main = &amp;quot;Horsepower vs mpg01&amp;quot;)
 boxplot(Auto$weight ~ Auto$mpg01, main = &amp;quot;Weight vs mpg01&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;/img/2bs-1.png&#34; alt=&#34;Box-plots of features to be used inprediction&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;img%20src=%22/img/2bs-1.png%22%20%20/&#34; alt=&#34;Box-plots of features to be used inprediction&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;part-c&#34;&gt;Part c:&lt;/h3&gt;
 &lt;p&gt;Here, we want to split the data into training and test set, holding 30%
 for the test set. So, for that, we use the sample.split function and

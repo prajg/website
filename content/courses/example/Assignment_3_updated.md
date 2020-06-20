@@ -246,7 +246,7 @@ plots which confirm the same.
     boxplot(Auto$weight ~ Auto$mpg01, main = "Weight vs mpg01")
 
 ![Box-plots of features to be used in
-prediction](/img/2bs-1.png)
+prediction](<img src="/img/2bs-1.png"  />)
 
 ### Part c:
 
