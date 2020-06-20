@@ -457,7 +457,7 @@ boxplot(Auto$horsepower ~ Auto$mpg01, main = &amp;quot;Horsepower vs mpg01&amp;q
 boxplot(Auto$weight ~ Auto$mpg01, main = &amp;quot;Weight vs mpg01&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;![Box-plots of features to be used in
-prediction](&lt;img src=&#34;/img/2bs-1.png&#34;  /&gt; &lt;p class=&#34;caption&#34;&gt;
+prediction](&lt;img src=&#34;/img/2bs-1.png&#34; alt=&#34;Box-plots of features to be used in prediction&#34; /&gt; &lt;p class=&#34;caption&#34;&gt;
 Box-plots of features to be used in prediction&lt;/p&gt;
 &lt;/p&gt;
 )
