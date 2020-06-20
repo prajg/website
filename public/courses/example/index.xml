@@ -55,176 +55,451 @@
     </item>
     
     <item>
-      <title>Assignment 2</title>
-      <link>/courses/example/assignment_2/</link>
-      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>/courses/example/assignment_2/</guid>
-      <description>
-
-
-&lt;div id=&#34;question-1&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Question 1&lt;/h2&gt;
-&lt;p&gt;If we write down the model using the &lt;span class=&#34;math inline&#34;&gt;\(\hat{\beta}\)&lt;/span&gt; coefficients we are provided, we have:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ \hat{y} = 50 + 20*GPA + 0.07*IQ + 35*Gender + 0.01*(GPA \times IQ) - 10*(GPA \times Gender)  \]&lt;/span&gt;&lt;br /&gt;
-where Gender is 1 for Female and 0 for Male and &lt;span class=&#34;math inline&#34;&gt;\(\hat{y}\)&lt;/span&gt; represents salary in thousands&lt;/p&gt;
-&lt;p&gt;So, if we write separate models for male and female, we have:&lt;/p&gt;
-&lt;p&gt;For Male, the model is:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ \hat{y} = 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  \]&lt;/span&gt; For Female, the model is:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ \hat{y} = 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ)  \]&lt;/span&gt;&lt;/p&gt;
-&lt;div id=&#34;part-a&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part a:&lt;/h3&gt;
-&lt;p&gt;Here, all the options are comparing Male’s Salary with respect to Female’s.&lt;/p&gt;
-&lt;p&gt;So, firstly, let’s just equate both the models to see how does the inequality work out. If we want to see when, on average, do female earn more than male, the inequality we have is:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+      <title>Example Page 1</title>
+      <link>/courses/example/assignment_3_updated/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example/assignment_3_updated/</guid>
+      <description>&lt;h2 id=&#34;question-1&#34;&gt;Question 1:&lt;/h2&gt;
+&lt;h3 id=&#34;part-a-write-down-what-is-pxdividend--yes&#34;&gt;Part a: Write down what is P(X|Dividend = Yes).&lt;/h3&gt;
+&lt;p&gt;P(X|Dividend = Yes), based on the question, follows a normal
+distribution with mean = 10 and variance = 36.&lt;/p&gt;
+&lt;p&gt;So, it&amp;rsquo;s density would look like:
+$$
 \begin{aligned}
-&amp;amp;  85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) &amp;gt; 50 + 20*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\
-&amp;amp; 85 + 10*GPA &amp;gt; 50 + 20*GPA \\
-&amp;amp; 3.5 &amp;gt; GPA
- \end{aligned}
-\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Therefore, when the GPA is smaller than 3.5, females, on average, earn more than males.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;(i)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as males, on average, earn more than females only when GPA is greater than 3.5, and not in general for any constant value of GPA.&lt;br /&gt;
-&lt;strong&gt;(ii)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as females, on average, earn more than males only when GPA is less than 3.5, and not in general for any constant value of GPA.&lt;br /&gt;
-&lt;strong&gt;(iii)&lt;/strong&gt; is &lt;strong&gt;correct&lt;/strong&gt; as males, on average, earn more than females when GPA is greater than 3.5. So, if we quantify high GPA as GPA &amp;gt;3.5, this statement is correct.&lt;br /&gt;
-&lt;strong&gt;(iv)&lt;/strong&gt; is &lt;strong&gt;incorrect&lt;/strong&gt; as for high GPA, females earn less than males, on average.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-b&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part b:&lt;/h3&gt;
-&lt;p&gt;Here, we want to predict the salary of a female with IQ 110 and GPA 4.0. So, here, if we plug in the values in our base model, we have:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[
+f(x) &amp;amp;= \frac{1}{\sqrt{2\pi\sigma^2}}exp(-\frac{(x - \mu)^2}{{2\sigma^2}}) \\&lt;br&gt;
+&amp;amp;= \frac{1}{\sqrt{2\pi\times 36}}exp(-\frac{1}{{2\sigma^2}}(x - 10)^2)
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;part-b-write-down-what-is-pxdividend--no&#34;&gt;Part b: Write down what is P(X|Dividend = No).&lt;/h3&gt;
+&lt;p&gt;P(X|Dividend = No), based on the question, also follows a normal
+distribution with mean = 0 and variance = 36.&lt;/p&gt;
+&lt;p&gt;So, it&amp;rsquo;s density would look like:
+$$
 \begin{aligned}
-\hat{Y} &amp;amp;= 85 + 10*GPA + 0.07*IQ + 0.01*(GPA \times IQ) \\
-  &amp;amp;= 85 + 10*4 + 0.07*110 + 0.01*(4*110) \\ 
- &amp;amp;= 137.1
- \end{aligned}
-\]&lt;/span&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-c&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part c:&lt;/h3&gt;
-&lt;p&gt;False. To verify if (GPA &amp;amp; IQ) together have an impact, we need to test &lt;span class=&#34;math inline&#34;&gt;\(H_0: \hat{\beta_4} = 0\)&lt;/span&gt; and look at the p-value associated with a t-statistic or an F-statistic to come to a conclusion.&lt;/p&gt;
-&lt;p&gt;If we notice partial effect of IQ and its interactive term, we see that IQ’s main effect is &lt;span class=&#34;math inline&#34;&gt;\((0.07*IQ)\)&lt;/span&gt; and the effect of interactive term is &lt;span class=&#34;math inline&#34;&gt;\((0.01*GPA*IQ)\)&lt;/span&gt; . So, IQ hierarchical effect is &lt;span class=&#34;math inline&#34;&gt;\((GPA/7)\)&lt;/span&gt; , which is around 57% the above case for GPA = 4.0. So, we can not ignore it before having a closer look at the respective p-value.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;question-2&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Question 2&lt;/h2&gt;
-&lt;div id=&#34;part-a-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part a:&lt;/h3&gt;
-&lt;p&gt;By installing the library ISLR, we already have the dataset Carseats. So, we will directly jump to fitting the model.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mod1 &amp;lt;- lm(Sales ~ Price + Urban + US, data = Carseats)
-summary(mod1)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Call:
-## lm(formula = Sales ~ Price + Urban + US, data = Carseats)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -6.9206 -1.6220 -0.0564  1.5786  7.0581 
-## 
-## Coefficients:
-##              Estimate Std. Error t value Pr(&amp;gt;|t|)    
-## (Intercept) 13.043469   0.651012  20.036  &amp;lt; 2e-16 ***
-## Price       -0.054459   0.005242 -10.389  &amp;lt; 2e-16 ***
-## UrbanYes    -0.021916   0.271650  -0.081    0.936    
-## USYes        1.200573   0.259042   4.635 4.86e-06 ***
-## ---
-## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
-## 
-## Residual standard error: 2.472 on 396 degrees of freedom
-## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2335 
-## F-statistic: 41.52 on 3 and 396 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-b-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part b:&lt;/h3&gt;
-&lt;p&gt;To interpret the coefficients, we first look at the categorical variables using contrast function&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::kable(contrasts(Carseats$Urban), caption = &amp;quot;Coding R uses in case of Urban vs Rural&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+f(x) &amp;amp;= \frac{1}{\sqrt{2\pi\sigma^2}}exp(-\frac{(x - \mu)^2}{{2\sigma^2}}) \\&lt;br&gt;
+&amp;amp;= \frac{1}{\sqrt{2\pi\times 36}}exp(-\frac{x^2}{{2\sigma^2}})
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h3 id=&#34;part-c-use-dnorm-to-calculate-conditional-probabilities-in-a-and-b-when-x4&#34;&gt;Part c: Use dnorm() to calculate conditional probabilities in a) and b) when X=4.&lt;/h3&gt;
+&lt;p&gt;Here, we will firstly calculate conditional probability for part(a) when
+X=4.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;dnorm(4, mean = 10, sd = 6, log = FALSE)
+
+## [1] 0.04032845
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Based on this, we see that the conditional probability in (a) when X=4
+is &lt;strong&gt;0.04032845&lt;/strong&gt;. Now, we will be calculating conditional probability
+for part(b) when X=4.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;dnorm(4, mean = 0, sd = 6, log = FALSE)
+
+## [1] 0.05324133
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Based on this, we see that the conditional probability in (b) when X=4
+is &lt;strong&gt;0.05324133&lt;/strong&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;part-d-what-is-the-value-of-pdividend--yes&#34;&gt;Part d: What is the value of P(Dividend = Yes)&lt;/h3&gt;
+&lt;p&gt;Based on the question, we are given that 80% of the companies issue
+dividends. So, P(Dividend = Yes) = 0.8&lt;/p&gt;
+&lt;h3 id=&#34;part-e-write-down-what-is-pxdividend--no&#34;&gt;Part e: Write down what is P(X|Dividend = No).&lt;/h3&gt;
+&lt;p&gt;Based on the question, we know that 20% of the companies do not issue
+dividends. So, P(Dividend = No) = 0.2&lt;/p&gt;
+&lt;h3 id=&#34;part-f-predict-the-probability-that-a-company-will-issue-a-dividend-this-year-given-its-percentage-profit-was-x--4&#34;&gt;Part f: Predict the probability that a company will issue a dividend this year given its percentage profit was X = 4.&lt;/h3&gt;
+&lt;p&gt;Based on part (c), (d) and (e), we will predict the probability that a
+company will issue a dividend this year given its percentage profit was
+X = 4. To do this, we will be using Bayes&amp;rsquo; rule. Based on that, we get
+probability = 0.752.&lt;/p&gt;
+&lt;p&gt;$$
+\begin{aligned}
+p_{yes}(x) &amp;amp;= \frac{\pi_{yes}exp(-\frac{(x - \mu_{yes})^2}{{2\sigma^2}})}{\pi_{yes}exp(-\frac{(x - \mu_{yes})^2}{{2\sigma^2}}) + \pi_{no}exp(-\frac{(x - \mu_{no})^2}{{2\sigma^2}})} \\&lt;br&gt;
+&amp;amp;= \frac{0.8 \times 0.04032845}{0.8 \times 0.04032845 + 0.2 \times 0.05324133}\\&lt;br&gt;
+&amp;amp;= 0.752
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h2 id=&#34;question-2&#34;&gt;Question 2:&lt;/h2&gt;
+&lt;h3 id=&#34;part-a&#34;&gt;Part a:&lt;/h3&gt;
+&lt;p&gt;Here, we want to create a binary variable, mpg01, that contains a 1 if
+mpg contains a value above its median, and a 0 if mpg contains a value
+below its median.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Check the first five entries of the dataset to see if the dataset is loaded properly
+knitr::kable(head(Auto)) 
+&lt;/code&gt;&lt;/pre&gt;
 &lt;table&gt;
-&lt;caption&gt;&lt;span id=&#34;tab:2b&#34;&gt;Table 1: &lt;/span&gt;Coding R uses in case of Urban vs Rural&lt;/caption&gt;
 &lt;thead&gt;
 &lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Yes&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;mpg&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;cylinders&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;displacement&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;horsepower&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;weight&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;acceleration&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;year&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;origin&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;name&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;No&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;18&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;307&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;130&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3504&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;12.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;70&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;chevrolet chevelle malibu&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Yes&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;350&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;165&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3693&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11.5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;70&lt;/td&gt;
 &lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;buick skylark 320&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;18&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;318&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;150&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3436&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;70&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;plymouth satellite&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;304&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;150&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3433&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;12.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;70&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;amc rebel sst&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;17&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;302&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;140&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;3449&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;70&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ford torino&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;429&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;198&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;4341&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;70&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;ford galaxie 500&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;knitr::kable(contrasts(Carseats$US), caption = &amp;quot;Coding R uses in case of US vs Non US&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;# Creating a variable &amp;quot;mpg01&amp;quot; whose value is 1 if the corresponding mpg value is greater
+# than median mpg value and 0 if less than the median 
+mpg01 &amp;lt;- rep(0, length(Auto$mpg))
+mpg01[Auto$mpg &amp;gt; median(Auto$mpg)] &amp;lt;- 1
+
+# Merging the &amp;quot;mpg01&amp;quot; variable with other variables in the Auto dataset
+Auto &amp;lt;- data.frame(Auto, mpg01)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;part-b&#34;&gt;Part b:&lt;/h3&gt;
+&lt;p&gt;Here, we want to see which continuous features seem most likely to be
+useful in predicting the mpg. We are provided in the question that we
+should use cor() function here and consider features with correlation
+coefficient greater than 0.6 in predicting.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Because we can use cor() function only on numeric values, we remove the 9th column, 
+# which is the &amp;quot;Names&amp;quot; of the vehicles/cars
+A &amp;lt;- cor(Auto[,-9])
+A
+
+##                     mpg  cylinders displacement horsepower     weight
+## mpg           1.0000000 -0.7776175   -0.8051269 -0.7784268 -0.8322442
+## cylinders    -0.7776175  1.0000000    0.9508233  0.8429834  0.8975273
+## displacement -0.8051269  0.9508233    1.0000000  0.8972570  0.9329944
+## horsepower   -0.7784268  0.8429834    0.8972570  1.0000000  0.8645377
+## weight       -0.8322442  0.8975273    0.9329944  0.8645377  1.0000000
+## acceleration  0.4233285 -0.5046834   -0.5438005 -0.6891955 -0.4168392
+## year          0.5805410 -0.3456474   -0.3698552 -0.4163615 -0.3091199
+## origin        0.5652088 -0.5689316   -0.6145351 -0.4551715 -0.5850054
+## mpg01         0.8369392 -0.7591939   -0.7534766 -0.6670526 -0.7577566
+##              acceleration       year     origin      mpg01
+## mpg             0.4233285  0.5805410  0.5652088  0.8369392
+## cylinders      -0.5046834 -0.3456474 -0.5689316 -0.7591939
+## displacement   -0.5438005 -0.3698552 -0.6145351 -0.7534766
+## horsepower     -0.6891955 -0.4163615 -0.4551715 -0.6670526
+## weight         -0.4168392 -0.3091199 -0.5850054 -0.7577566
+## acceleration    1.0000000  0.2903161  0.2127458  0.3468215
+## year            0.2903161  1.0000000  0.1815277  0.4299042
+## origin          0.2127458  0.1815277  1.0000000  0.5136984
+## mpg01           0.3468215  0.4299042  0.5136984  1.0000000
+
+library(corrplot)
+corrplot(A, type=&amp;quot;full&amp;quot;, method = &amp;quot;color&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_3_updated_files/figure-markdown_strict/2b-1.png&#34; alt=&#34;Correlation plot&#34;  /&gt;&lt;/p&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Correlation plot
+&lt;/p&gt;
+&lt;p&gt;Based on the correlation table and the figure, we can say that
+&amp;ldquo;cylinders&amp;rdquo;, &amp;ldquo;displacement&amp;rdquo;, &amp;ldquo;horsepower&amp;rdquo; and &amp;ldquo;weight&amp;rdquo; are four features
+that we will be using for prediction as their absolute correlation
+coefficient is greater than 0.6.&lt;/p&gt;
+&lt;p&gt;Just to confirm the impact of the features above, we plot individual box
+plots which confirm the same.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;par(mfrow=c(2,2))
+boxplot(Auto$cylinders ~ Auto$mpg01, main = &amp;quot;Cylinders vs mpg01&amp;quot;)
+boxplot(Auto$displacement ~ Auto$mpg01, main = &amp;quot;Displacement vs mpg01&amp;quot;)
+boxplot(Auto$horsepower ~ Auto$mpg01, main = &amp;quot;Horsepower vs mpg01&amp;quot;)
+boxplot(Auto$weight ~ Auto$mpg01, main = &amp;quot;Weight vs mpg01&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_3_updated_files/figure-markdown_strict/2bs-1.png&#34; alt=&#34;Box-plots of features to be used inprediction&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;part-c&#34;&gt;Part c:&lt;/h3&gt;
+&lt;p&gt;Here, we want to split the data into training and test set, holding 30%
+for the test set. So, for that, we use the sample.split function and
+then store them in Auto.train and Auto.test respectively.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(101)
+temp  &amp;lt;- sample.split(Auto, SplitRatio = 0.7)
+Auto.train &amp;lt;- Auto[temp,]
+Auto.test &amp;lt;- Auto[!temp,]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;part-d&#34;&gt;Part d:&lt;/h3&gt;
+&lt;p&gt;Here, we want to perform LDA using the variables that seemed most
+associated in part b and then want to find the test error.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(101)
+# Fitting the LDA model
+mod_lda &amp;lt;- lda(mpg01 ~ cylinders + weight + displacement + horsepower, data = Auto.train)
+mod_lda
+
+## Call:
+## lda(mpg01 ~ cylinders + weight + displacement + horsepower, data = Auto.train)
+## 
+## Prior probabilities of groups:
+##         0         1 
+## 0.4981818 0.5018182 
+## 
+## Group means:
+##   cylinders   weight displacement horsepower
+## 0  6.678832 3605.263     269.2482  129.30657
+## 1  4.224638 2357.543     118.4312   79.65217
+## 
+## Coefficients of linear discriminants:
+##                       LD1
+## cylinders    -0.289911365
+## weight       -0.001216868
+## displacement -0.002048940
+## horsepower    0.004664771
+
+# Predicting based on the fitted LDA model
+pred.lda &amp;lt;- predict(mod_lda, Auto.test)
+
+# Generating the confusion matrix to check the error rate.
+table(pred.lda$class, Auto.test[,&amp;quot;mpg01&amp;quot;])
+
+##    
+##      0  1
+##   0 51  1
+##   1  8 57
+
+mean(pred.lda$class != Auto.test[,&amp;quot;mpg01&amp;quot;])
+
+## [1] 0.07692308
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Based on this, we can say that the test error is &lt;strong&gt;7.69%&lt;/strong&gt; in the case
+of using LDA on features selected in part b.&lt;/p&gt;
+&lt;h3 id=&#34;part-e&#34;&gt;Part e:&lt;/h3&gt;
+&lt;p&gt;Here, we want to perform QDA using the variables that seemed most
+associated in part b and then want to find the test error.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(101)
+# Fitting the LDA model
+mod_qda &amp;lt;- qda(mpg01 ~ cylinders + weight + displacement + horsepower, data = Auto.train)
+mod_qda
+
+## Call:
+## qda(mpg01 ~ cylinders + weight + displacement + horsepower, data = Auto.train)
+## 
+## Prior probabilities of groups:
+##         0         1 
+## 0.4981818 0.5018182 
+## 
+## Group means:
+##   cylinders   weight displacement horsepower
+## 0  6.678832 3605.263     269.2482  129.30657
+## 1  4.224638 2357.543     118.4312   79.65217
+
+# Predicting based on the fitted LDA model
+pred.qda &amp;lt;- predict(mod_qda, Auto.test)
+
+# Generating the confusion matrix to check the error rate.
+table(pred.qda$class, Auto.test[,&amp;quot;mpg01&amp;quot;])
+
+##    
+##      0  1
+##   0 54  1
+##   1  5 57
+
+mean(pred.qda$class != Auto.test[,&amp;quot;mpg01&amp;quot;])
+
+## [1] 0.05128205
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Based on this, we can say that the test error is &lt;strong&gt;5.12%&lt;/strong&gt; in the case
+of using QDA on features selected in part b.&lt;/p&gt;
+&lt;h3 id=&#34;part-f&#34;&gt;Part f:&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(101)
+glm_mod &amp;lt;- glm(mpg01 ~ cylinders + weight + displacement + horsepower, 
+               data = Auto.train, family = binomial)
+summary(glm_mod)
+
+## 
+## Call:
+## glm(formula = mpg01 ~ cylinders + weight + displacement + horsepower, 
+##     family = binomial, data = Auto.train)
+## 
+## Deviance Residuals: 
+##     Min       1Q   Median       3Q      Max  
+## -2.3047  -0.2763   0.1173   0.3913   3.1478  
+## 
+## Coefficients:
+##                Estimate Std. Error z value Pr(&amp;gt;|z|)    
+## (Intercept)  10.6027057  1.8659851   5.682 1.33e-08 ***
+## cylinders     0.2606786  0.3991895   0.653  0.51374    
+## weight       -0.0020693  0.0007444  -2.780  0.00544 ** 
+## displacement -0.0136283  0.0092348  -1.476  0.14001    
+## horsepower   -0.0383627  0.0156556  -2.450  0.01427 *  
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## (Dispersion parameter for binomial family taken to be 1)
+## 
+##     Null deviance: 381.23  on 274  degrees of freedom
+## Residual deviance: 162.40  on 270  degrees of freedom
+## AIC: 172.4
+## 
+## Number of Fisher Scoring iterations: 7
+
+set.seed(101)
+# getting the predicted probabilities
+probs &amp;lt;- predict(glm_mod, Auto.test, type = &amp;quot;response&amp;quot;) 
+
+# creating the confusion matrix
+pred.glm &amp;lt;- rep(0, length(probs))
+pred.glm[probs &amp;gt; 0.5] &amp;lt;- 1
+table(pred.glm, Auto.test$mpg01)
+
+##         
+## pred.glm  0  1
+##        0 53  2
+##        1  6 56
+
+mean(pred.glm != Auto.test$mpg01)
+
+## [1] 0.06837607
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Based on this, we can say that the test error is &lt;strong&gt;6.84%&lt;/strong&gt; in the case
+of using Logistic Regression on features selected in part b.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;set.seed(101)
+library(class)
+train.X = cbind(Auto.train$cylinders, Auto.train$weight, 
+                Auto.train$displacement, Auto.train$horsepower)
+test.X = cbind(Auto.test$cylinders, Auto.test$weight, 
+               Auto.test$displacement, Auto.test$horsepower)
+train.Y = Auto.train$mpg01
+test.Y = Auto.test$mpg01
+knn_test_error = c();
+for ( i in 1:200 ) {
+  knn.pred = knn(train.X, test.X, train.Y, k = i)
+  knn_test_error[i] = mean(knn.pred != test.Y)*100
+}
+plot(1:200, knn_test_error, xlab = &amp;quot;K&amp;quot;, ylab = &amp;quot;Test Error Rate (%)&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;Assignment_3_updated_files/figure-markdown_strict/2g-1.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;df &amp;lt;- data.frame(matrix(ncol = 2, nrow = 10))
+x &amp;lt;- c(&amp;quot;K&amp;quot;, &amp;quot;Error&amp;quot;)
+colnames(df) &amp;lt;- x
+
+temp_vec &amp;lt;- c(1,5,10,15,20,30,50,100,150,200)
+for(i in 1:10){
+   df[i,1] &amp;lt;- temp_vec[i]
+}
+
+for(j in 1:10){
+  df[j,2] &amp;lt;- knn_test_error[temp_vec[j]]
+}
+
+knitr::kable(df, digits = 3)
+&lt;/code&gt;&lt;/pre&gt;
 &lt;table&gt;
-&lt;caption&gt;&lt;span id=&#34;tab:2b&#34;&gt;Table 1: &lt;/span&gt;Coding R uses in case of US vs Non US&lt;/caption&gt;
 &lt;thead&gt;
 &lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;&lt;/th&gt;
-&lt;th align=&#34;right&#34;&gt;Yes&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;K&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Error&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;No&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11.111&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;Yes&lt;/td&gt;
-&lt;td align=&#34;right&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;9.402&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.256&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.256&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;10.256&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;30&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;8.547&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;50&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;9.402&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;100&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;9.402&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;150&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;9.402&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;right&#34;&gt;200&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;11.966&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Based on the result of contrast function, we observe that person living in urban setting has value 1 for Urban variable and person living in rural setting has value 0 for the same. For US variable, R assigns value 1 if the store is in US and 0 if it is not.&lt;/p&gt;
-&lt;p&gt;Now that we know the qualitative predictors, we can start interpreting the coefficients in the model.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Intercept represents sales(in thousands) for a store where it does not charge any price for car seats, which is in a rural setting and the store is not in US.&lt;/li&gt;
-&lt;li&gt;For the Price coefficient, we can say that for every unit increase in the price charged for car seats, the sales decrease by approx 54.45 units(0.05445*1000) keeping all other predictors fixed.&lt;/li&gt;
-&lt;li&gt;Coefficient for UrbanYes indicates the average difference in the sales of a store located in Urban area as compared to rural area. So, if the store is in Urban area, then keeping everything else constant, the sales go down by 21.9 units as compared to stores in Rural area. However, since the p-value is not significant, we can not be certain about this relationship.&lt;/li&gt;
-&lt;li&gt;Lastly, the USYes coefficient can be interpreted as the average increase in Sales provided that the store is located in the United States. Thus, on average, the sales in a US store are 1200.57 units more than in a non US store keeping all other predictors remaining fixed.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-c-1&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part c:&lt;/h3&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ Sales = 13.043469 - 0.054459*Price - 0.021916*UrbanYes + 1.200573*USYes + \epsilon \]&lt;/span&gt; where, UrbanYes is 1 if the store is in Urban setting and 0 if not while USYes is 1 if the store is in US and 0 if not&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-d&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part d:&lt;/h3&gt;
-&lt;p&gt;For rejecting the null hypothesis &lt;span class=&#34;math inline&#34;&gt;\(H_0 : \beta_j = 0\)&lt;/span&gt;, we would want a small p-value (less than 0.05). So, here we can reject null hypothesis for &lt;strong&gt;Price&lt;/strong&gt; and &lt;strong&gt;USYes&lt;/strong&gt; variable as their p-value is less than 0.05. A small p-value indicates that we observe an association between the predictor and the response. So, we reject the null hypothesis and declare a relationship to exist between predictor and response.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-e&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part e:&lt;/h3&gt;
-&lt;p&gt;On the basis of previous question, we now want to fit a new smaller model that only uses the predictors for which there is evidence of association with the response.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;mod2 &amp;lt;- lm(Sales ~ Price + US, data = Carseats)
-summary(mod2)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 
-## Call:
-## lm(formula = Sales ~ Price + US, data = Carseats)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -6.9269 -1.6286 -0.0574  1.5766  7.0515 
-## 
-## Coefficients:
-##             Estimate Std. Error t value Pr(&amp;gt;|t|)    
-## (Intercept) 13.03079    0.63098  20.652  &amp;lt; 2e-16 ***
-## Price       -0.05448    0.00523 -10.416  &amp;lt; 2e-16 ***
-## USYes        1.19964    0.25846   4.641 4.71e-06 ***
-## ---
-## Signif. codes:  0 &amp;#39;***&amp;#39; 0.001 &amp;#39;**&amp;#39; 0.01 &amp;#39;*&amp;#39; 0.05 &amp;#39;.&amp;#39; 0.1 &amp;#39; &amp;#39; 1
-## 
-## Residual standard error: 2.469 on 397 degrees of freedom
-## Multiple R-squared:  0.2393, Adjusted R-squared:  0.2354 
-## F-statistic: 62.43 on 2 and 397 DF,  p-value: &amp;lt; 2.2e-16&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-f&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Part f:&lt;/h3&gt;
-&lt;p&gt;On comparing the output of summaries, we see that &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; is the same for both the models. So, while going from smaller to bigger model (i.e., model in part (e) to model in part (a)), because the &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; does not increase, we can continue with the smaller model and drop the Price$Urban variable as it is not helping improving the fit.&lt;/p&gt;
-&lt;p&gt;Moreover, while going from smaller model to base model, RSE increases, F-statistic decreases and the Adjusted &lt;span class=&#34;math inline&#34;&gt;\(R^2\)&lt;/span&gt; decreases a bit as well. So, we can say that smaller model would be marginally better for all the above mentioned reasons and it is also easier to interpret.&lt;/p&gt;
-&lt;p&gt;But on average, if we just look at the summary statistics for model comparison, the models are quite similar.&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;which.min(knn_test_error)
+
+## [1] 7
+
+min(knn_test_error)
+
+## [1] 7.692308
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So, from the values provided in question, based on the above table, we
+see that KNN performs best for K=30 with test error rate of &lt;strong&gt;8.547%&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;However, if we take all values from 1 to 200, when K = 7, KNN classifier
+performs the best with the test error rate = &lt;strong&gt;7.69%&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
