@@ -1713,7 +1713,7 @@ lines(p1, D, col = &amp;quot;green&amp;quot;)
 legend(&amp;quot;topright&amp;quot;, c(&amp;quot;Classification error&amp;quot;, &amp;quot;Gini index&amp;quot;, &amp;quot;entropy&amp;quot;), col = 
          c(&amp;quot;black&amp;quot;, &amp;quot;blue&amp;quot;, &amp;quot;green&amp;quot;), lty = c(1, 1), cex  = 0.5)
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;Assignment_6_updated_files/figure-markdown_strict/3b-1.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/3b-1.png&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;question-4&#34;&gt;Question 4:&lt;/h3&gt;
 &lt;p&gt;We are provided 10 estimates of P(Class is red|X) which are:
 0.1,0.15,0.2,0.2,0.55,0.6,0.6,0.65,0.7,0.75&lt;/p&gt;

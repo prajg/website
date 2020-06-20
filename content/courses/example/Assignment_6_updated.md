@@ -196,7 +196,7 @@ Here, we want to plot the above three measures
     legend("topright", c("Classification error", "Gini index", "entropy"), col = 
              c("black", "blue", "green"), lty = c(1, 1), cex  = 0.5)
 
-<img src="Assignment_6_updated_files/figure-markdown_strict/3b-1.png" style="display: block; margin: auto;" />
+<img src="/img/3b-1.png"  />
 
 ### Question 4:
 
