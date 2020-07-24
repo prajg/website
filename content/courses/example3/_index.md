@@ -8,10 +8,10 @@ menu:
     name: Final Report
     weight: 3
 summary: Independent Reading on Variable Annuity
-title: Overview
+title: Course Reports
 toc: false
 type: docs
-weight: 3
+weight: 1
 ---
 
 {{% staticref "files/ACT496.pdf" %}}Final Report (to be updated) {{% /staticref %}}
