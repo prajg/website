@@ -227,16 +227,6 @@ comparison, the models are quite similar.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Overview</title>
-      <link>/courses/example2/_index2/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0000</pubDate>
-      <guid>/courses/example2/_index2/</guid>
-      <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage:&lt;/h2&gt;
-&lt;p&gt;Probabilistic foundations of supervised and unsupervised learning methods such as naive Bayes, mixture models, and logistic regression. Gradient-based fitting of composite models including neural nets. Exact inference, stochastic variational inference, and Marko chain Monte Carlo. Variational autoencoders and generative adversarial networks.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Assignment 2</title>
       <link>/courses/example/assignment_3_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
