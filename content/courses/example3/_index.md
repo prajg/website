@@ -14,4 +14,4 @@ type: docs
 weight: 3
 ---
 
-{{% staticref "files/ACT496.pdf" "newtab" %}}Final Report{{% /staticref %}}
+{{% staticref "files/ACT496.pdf" %}}Final Report{{% /staticref %}}
