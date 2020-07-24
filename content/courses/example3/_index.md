@@ -14,6 +14,4 @@ type: docs
 weight: 3
 ---
 
-{{% staticref "files/ACT496.pdf" "newtab" %}}
-
-
+{{% staticref "files/ACT496.pdf" "newtab" %}}Download my CV{{% /staticref %}}
