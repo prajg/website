@@ -13,6 +13,15 @@
     </image>
     
     <item>
+      <title>Assignment 0</title>
+      <link>/courses/example2/assignment_0/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example2/assignment_0/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/A0-2.pdf&#34;&gt; Assignment 0 &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Assignment 1</title>
       <link>/courses/example/assignment_2_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
@@ -223,6 +232,15 @@ as well. So, we can say that smaller model would be marginally better
 for all the above mentioned reasons and it is also easier to interpret.&lt;/p&gt;
 &lt;p&gt;But on average, if we just look at the summary statistics for model
 comparison, the models are quite similar.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 1</title>
+      <link>/courses/example2/assignment_1/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example2/assignment_1/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/A1-2.pdf&#34;&gt;Assignment 1 &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -679,6 +697,15 @@ performs the best with the test error rate = &lt;strong&gt;7.69%&lt;/strong&gt;.
     </item>
     
     <item>
+      <title>Assignment 2</title>
+      <link>/courses/example2/assignment_2/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example2/assignment_2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/AA2_submission_updated.pdf&#34;&gt;Assignment 2 &lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Assignment 3</title>
       <link>/courses/example/assignment_4_updated/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
@@ -1036,6 +1063,15 @@ associated with balance, is &lt;strong&gt;2.250900e-04&lt;/strong&gt;&lt;/p&gt;
 the glm() function and using bootstrap function.&lt;/p&gt;
 &lt;p&gt;So, based on the results we have, the estimated standard errors obtained
 by the two methods are pretty close.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Assignment 3</title>
+      <link>/courses/example2/assignment_3/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>/courses/example2/assignment_3/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;/files/sta414_A3_updated.pdf&#34;&gt;Assignment 3 &lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
