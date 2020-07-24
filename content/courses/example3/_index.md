@@ -8,7 +8,7 @@ menu:
     name: Final Report
     weight: 3
 summary: Independent Reading on Variable Annuity
-title: Course Report:
+title: Course Report
 toc: false
 type: docs
 weight: 1
