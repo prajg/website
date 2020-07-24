@@ -1,12 +1,12 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: A2
+linktitle: A2_STA414
 menu:
   example:
     parent: Assignments STA414
     weight: 3
-title: A2
+title: Assignment 2
 toc: true
 type: docs
 weight: 3
