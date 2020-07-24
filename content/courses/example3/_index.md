@@ -9,7 +9,7 @@ menu:
     weight: 3
 summary: Independent Reading on Variable Annuity
 title: Overview
-toc: true
+toc: false
 type: docs
 weight: 3
 ---
