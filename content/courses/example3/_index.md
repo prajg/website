@@ -5,7 +5,7 @@ lastmod: "2018-09-09T00:00:00Z"
 linktitle: ACT496
 menu:
   example:
-    name: Final Report ACT496
+    name: ACT496
     weight: 3
 summary: Independent Reading on Variable Annuity
 title: Course Report
