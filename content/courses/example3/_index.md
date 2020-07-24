@@ -6,14 +6,14 @@ linktitle: ACT496
 menu:
   example:
     name: Final Report
-    weight: 1
+    weight: 3
 summary: Independent Reading on Variable Annuity
 title: Overview
 toc: true
 type: docs
-weight: 1
+weight: 3
 ---
 
-## Course Coverage:
+url = "ACT496/cv.pdf"
 
 
