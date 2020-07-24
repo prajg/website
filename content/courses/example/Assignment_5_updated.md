@@ -4,7 +4,7 @@ draft: false
 linktitle: Assignment 4
 menu:
   example:
-    parent: Assignments
+    parent: Assignments STA314
     weight: 4
 title: Assignment 4
 toc: true

@@ -1,10 +1,10 @@
 ---
 date: "2019-05-05T00:00:00+01:00"
 draft: false
-linktitle: Assignment 1 STA314
+linktitle: Assignment 1
 menu:
   example:
-    parent: Assignments
+    parent: Assignments STA314
     weight: 1
 title: Assignment 1
 toc: true

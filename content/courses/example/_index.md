@@ -5,7 +5,7 @@ lastmod: "2018-09-09T00:00:00Z"
 linktitle: STA314 
 menu:
   example:
-    name: Assignments
+    name: Assignments STA314
     weight: 1
 summary: Statistical Methods for Machine Learning 1
 title: Overview
