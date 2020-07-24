@@ -14,6 +14,6 @@ type: docs
 weight: 3
 ---
 
-url = "ACT496/cv.pdf"
+{{% staticref "files/ACT496.pdf" "newtab" %}}
 
 
