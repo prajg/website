@@ -1,0 +1,1402 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Raj Patel">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Question 1 Here, we want to explore the fact that ridge regression tends to give similar coefficient values to correlated variables, whereas lasso may give quite different coefficient values to correlated variables.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="/courses/sta314/assignment_5_updated/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="/courses/sta314/assignment_5_updated/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="Raj Patel">
+  <meta property="og:url" content="/courses/sta314/assignment_5_updated/">
+  <meta property="og:title" content="Assignment 4 | Raj Patel">
+  <meta property="og:description" content="Question 1 Here, we want to explore the fact that ridge regression tends to give similar coefficient values to correlated variables, whereas lasso may give quite different coefficient values to correlated variables."><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2019-05-05T00:00:00&#43;01:00">
+    
+    <meta property="article:modified_time" content="2019-05-05T00:00:00&#43;01:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Assignment 4 | Raj Patel</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Raj Patel</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Raj Patel</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Work Experience</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+<div class="container-fluid docs">
+  <div class="row flex-xl-nowrap">
+    <div class="col-12 col-md-3 col-xl-2 docs-sidebar">
+      
+
+
+
+
+
+  
+    
+  
+
+
+
+
+<form class="docs-search d-flex align-items-center">
+  <button class="btn docs-toggle d-md-none p-0 mr-3" type="button" data-toggle="collapse" data-target="#docs-nav" aria-controls="docs-nav" aria-expanded="false" aria-label="Toggle section navigation">
+    <span><i class="fas fa-bars"></i></span>
+  </button>
+
+  
+  <input name="q" type="search" class="form-control" placeholder="Search..." autocomplete="off">
+  
+</form>
+
+<nav class="collapse docs-links" id="docs-nav">
+  
+
+  
+  
+  
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/sta314/">Assignments STA314</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/sta314/assignment_2_updated/">A1_STA314</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta314/assignment_3_updated/">A2_STA314</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta314/assignment_4_updated/">A3_STA314</a>
+      </li>
+      
+      <li class="active">
+        <a href="/courses/sta314/assignment_5_updated/">A4_STA314</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta314/assignment_6_updated/">A5_STA314</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/sta365/">Assignments STA365</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/sta365/assignment_0/">A1_STA365</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta365/assignment_1/">A2_STA365</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta365/assignment_2/">A3_STA365</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta365/assignment_3/">A4_STA365</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/sta414/">Assignments STA414</a>
+    <ul class="nav docs-sidenav">
+      
+      <li >
+        <a href="/courses/sta414/assignment_0/">A0_STA414</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta414/assignment_1/">A1_STA414</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta414/assignment_2/">A2_STA414</a>
+      </li>
+      
+      <li >
+        <a href="/courses/sta414/assignment_3/">A3_STA414</a>
+      </li>
+      
+    </ul>
+    
+
+  </div>
+  
+  <div class="docs-toc-item">
+    <a class="docs-toc-link" href="/courses/act496/">ACT496</a>
+
+  </div>
+  
+  
+</nav>
+
+    </div>
+
+    
+    <div class="d-none d-xl-block col-xl-2 docs-toc">
+      <ul class="nav toc-top">
+        <li><a href="#" id="back_to_top" class="docs-toc-title">Contents</a></li>
+      </ul>
+
+      <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#question-1">Question 1</a></li>
+        <li><a href="#question-2">Question 2</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+      
+    </div>
+    
+
+    <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role="main">
+
+      <article class="article">
+
+        <div class="docs-article-container">
+          <h1>Assignment 4</h1>
+
+          <div class="article-style">
+            <h3 id="question-1">Question 1</h3>
+<p>Here, we want to explore the fact that ridge regression tends to give
+similar coefficient values to correlated variables, whereas lasso may
+give quite different coefficient values to correlated variables.</p>
+<p>In this question, we are provided that <em>n</em> = 2, <em>p</em> = 2,
+<em>x</em><sub>11</sub> = <em>x</em><sub>12</sub> and
+<em>x</em><sub>21</sub> = <em>x</em><sub>22</sub>. Furthermore, we are also given that
+<em>y</em><sub>1</sub> + <em>y</em><sub>2</sub> = 0,
+<em>x</em><sub>11</sub> + <em>x</em><sub>21</sub> = 0 and
+<em>x</em><sub>12</sub> + <em>x</em><sub>22</sub> = 0. As a result, the estimate for
+the intercept in a least squares, ridge regression or lasso model is
+zero: $\hat{\beta_0} = 0$</p>
+<h4 id="part-a">Part a:</h4>
+<p>Here, we want to write out the ridge regression optimization problem in
+this setting.</p>
+<p>So, we want to minimize:</p>
+<p>(<em>y</em><sub>1</sub> − <em>β</em><sub>1</sub><em>x</em><sub>11</sub> − <em>β</em><sub>2</sub><em>x</em><sub>12</sub>)<sup>2</sup> + (<em>y</em><sub>2</sub> − <em>β</em><sub>1</sub><em>x</em><sub>21</sub> − <em>β</em><sub>2</sub><em>x</em><sub>22</sub>)<sup>2</sup> + <em>λ</em>(<em>β</em><sub>1</sub><sup>2</sup> + <em>β</em><sub>2</sub><sup>2</sup>)</p>
+<p>Now, we know that <em>x</em><sub>11</sub> = <em>x</em><sub>12</sub> and
+<em>x</em><sub>21</sub> = <em>x</em><sub>22</sub>. So, substituting <em>x</em><sub>12</sub>
+as <em>x</em><sub>11</sub> and <em>x</em><sub>22</sub> as <em>x</em><sub>21</sub>, our
+function to be minimized becomes,</p>
+<p>Now, we know that <em>y</em><sub>1</sub> + <em>y</em><sub>2</sub> = 0. Therefore,
+<em>y</em><sub>2</sub> = −<em>y</em><sub>1</sub>. Moreover, we also know that
+<em>x</em><sub>11</sub> + <em>x</em><sub>21</sub> = 0. So,
+<em>x</em><sub>21</sub> = −<em>x</em><sub>11</sub>. So, substituting this, our problem
+becomes,</p>
+<p>(<em>y</em><sub>1</sub> − <em>β</em><sub>1</sub><em>x</em><sub>11</sub> − <em>β</em><sub>2</sub><em>x</em><sub>11</sub>)<sup>2</sup> + ( − (<em>y</em><sub>1</sub> − <em>β</em><sub>1</sub><em>x</em><sub>11</sub> − <em>β</em><sub>2</sub><em>x</em><sub>11</sub>))<sup>2</sup> + <em>λ</em>(<em>β</em><sub>1</sub><sup>2</sup> + <em>β</em><sub>2</sub><sup>2</sup>)
+which is,</p>
+<p>$$\boxed{2(y_1 - ({\beta_1} +  {\beta_2})x_{11})^2 + \lambda ({\beta_1}^2 + {\beta_2}^2)}$$</p>
+<h4 id="part-b">Part b:</h4>
+<p>Here, to find the coefficient estimates for ridge regression, we first
+differentiate result (A) from part (a) with respect to
+$\hat{\beta_1}$ and $\hat{\beta_2}$, set both of them to zero and
+then solve for $\hat{\beta_1}$ and $\hat{\beta_2}$</p>
+<p>Differentiating with respect to $\hat{\beta_1}$ and setting it to 0,
+we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + 2\lambda \hat{\beta_1} = 0$$</p>
+<p>Therefore,</p>
+<p>Similarly, differentiating with respect to $\hat{\beta_2}$ and
+setting it to 0, we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + 2\lambda \hat{\beta_2} = 0$$</p>
+<p>Therefore,</p>
+<p>Now, to solve for $\hat{\beta_1}$ and $\hat{\beta_2}$, we compare
+equation (B) and equation (C). Comparing that, we get:
+$$\hat{\beta_1} = \hat{\beta_2}$$</p>
+<h4 id="part-c">Part c:</h4>
+<p>Here, we want to write out the lasso optimization problem in this
+setting.</p>
+<p>So, we want to minimize:</p>
+<p>(<em>y</em><sub>1</sub> − <em>β</em><sub>1</sub><em>x</em><sub>11</sub> − <em>β</em><sub>2</sub><em>x</em><sub>12</sub>)<sup>2</sup> + (<em>y</em><sub>2</sub> − <em>β</em><sub>1</sub><em>x</em><sub>21</sub> − <em>β</em><sub>2</sub><em>x</em><sub>22</sub>)<sup>2</sup> + <em>λ</em>(|<em>β</em><sub>1</sub>|+|<em>β</em><sub>2</sub>|)</p>
+<p>Now, we know that <em>x</em><sub>11</sub> = <em>x</em><sub>12</sub> and
+<em>x</em><sub>21</sub> = <em>x</em><sub>22</sub>. So, substituting <em>x</em><sub>12</sub>
+as <em>x</em><sub>11</sub> and <em>x</em><sub>22</sub> as <em>x</em><sub>21</sub>, our
+function to be minimized becomes,</p>
+<p>Now, we know that <em>y</em><sub>1</sub> + <em>y</em><sub>2</sub> = 0. Therefore,
+<em>y</em><sub>2</sub> = −<em>y</em><sub>1</sub>. Moreover, we also know that
+<em>x</em><sub>11</sub> + <em>x</em><sub>21</sub> = 0. So,
+<em>x</em><sub>21</sub> = −<em>x</em><sub>11</sub>. So, substituting this, our problem
+becomes,</p>
+<p>(<em>y</em><sub>1</sub> − <em>β</em><sub>1</sub><em>x</em><sub>11</sub> − <em>β</em><sub>2</sub><em>x</em><sub>11</sub>)<sup>2</sup> + ( − (<em>y</em><sub>1</sub> − <em>β</em><sub>1</sub><em>x</em><sub>11</sub> − <em>β</em><sub>2</sub><em>x</em><sub>11</sub>))<sup>2</sup> + <em>λ</em>(|<em>β</em><sub>1</sub>|+|<em>β</em><sub>2</sub>|)
+which is,</p>
+<p>$$\boxed{2(y_1 - ({\beta_1} +  {\beta_2})x_{11})^2 + \lambda (|{\beta_1}| + |{\beta_2}|)}$$</p>
+<h4 id="part-d">Part d:</h4>
+<p>Here, we want to show that for the optimization problem in part (c), the
+Lasso coefficients are not unique and then show the solutions. Now, in
+part (c), we see that the optimization problem has absolute values. So,
+understanding how to differentiate them is the first important step.</p>
+<p>From basic calculus, we know that:</p>
+<p>$$
+\frac{d}{{dx}}|u| = \frac{d}{{dx}}\sqrt {{{{u}}^2}}  = \frac {u \times u&rsquo;}{|u|},  u \neq 0
+$$</p>
+<p>So, from part (c), we differentiate equation D with respect to
+$\hat{\beta_1}$ and $\hat{\beta_2}$ and set them to 0.
+Differentiating with respect to $\hat{\beta_1}$ and setting it to 0,
+we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + \frac{\lambda \hat{\beta_1}}{|\hat{\beta_1|}} = 0$$</p>
+<p>Similarly, differentiating with respect to $\hat{\beta_2}$ and
+setting it to 0, we have:
+$$2(y_1-\hat{\beta_1}x_{11} - \hat{\beta_2}x_{11}) (-x_{11}) + 2(y_2-\hat{\beta_1}x_{21} - \hat{\beta_2}x_{21}) (-x_{21}) + \frac{\lambda \hat{\beta_2}}{|\hat{\beta_2}|} = 0$$</p>
+<p>Now, equating the above two equations, we get:
+$$ \frac{\lambda \hat{\beta_1}}{|\hat{\beta_1}|} = \frac{\lambda \hat{\beta_2}}{|\hat{\beta_2}|} $$
+which implies,
+$$ \frac{\hat{\beta_1}}{|\hat{\beta_1}|} = \frac{\hat{\beta_2}}{|\hat{\beta_2}|} $$</p>
+<p>from which we can see that both $\hat{\beta}_1$, $\hat{\beta}_2$
+take the same sign and that there are many possible solutions to this
+optimization problem.</p>
+<p>Now, we know an alternative form of Lasso regression which is:
+$$ \underset{\boldsymbol{\beta}}{\mathrm{argmin}} ((y_1 - \hat{\beta_1}x_{11} -  \hat{\beta_2}x_{12})^2 + (y_2 - \hat{\beta_1}x_{21} -  \hat{\beta_2}x_{22})^2) $$
+subject to
+$$| \hat{\beta}_1 | + | \hat{\beta}_2 | \le s $$</p>
+<p>The above form says that the lasso coefficients are the ones that have
+the smallest RSS out of all points that lie within the diamond defined
+by $| \hat{\beta}_1 | + | \hat{\beta}_2 | \le s$.</p>
+<p>And the point with smallest RSS will be the first point at which the
+contours of RSS intersects the diamond defined by
+$| \hat{\beta}_1 | + | \hat{\beta}_2 | \le s$.</p>
+<p>As it is first point of intersection, it will be a point on diamond and
+so, our solution is: $| \hat{\beta}_1 | + | \hat{\beta}_2 | = s$,
+which can be furthur expanded to:
+$$\hat{\beta}_1 + \hat{\beta}_2 = s; \hat{\beta}_1 \geq 0; \hat{\beta}_2 \geq 0$$
+and
+$$\hat{\beta}_1 + \hat{\beta}_2 = -s; \hat{\beta}_1 \leq 0; \hat{\beta}_2 \leq 0$$</p>
+<h3 id="question-2">Question 2</h3>
+<p>Here, in this exercise, we will generate simulated data and then will
+use this data to perform best model selection. Firstly, we generate a
+predictor X of length n=100, as well as a noise vector <em>ϵ</em> of length
+n=100 such that <em>ϵ</em> = 0.1 * rnorm()</p>
+<pre><code>set.seed(19)
+
+#  Generating X vector
+X &lt;- rnorm(100)
+
+# Generating noise vector
+noise_vec &lt;- 0.1 * rnorm(100)
+</code></pre>
+<h4 id="part-a-1">Part a:</h4>
+<p>Here, we want to generate Y of length n = 100 according to the model:
+<em>Y</em> = <em>β</em><sub>0</sub> + <em>β</em><sub>1</sub><em>X</em> + <em>β</em><sub>2</sub><em>X</em><sup>2</sup> + <em>β</em><sub>3</sub><em>X</em><sup>3</sup> + <em>ϵ</em></p>
+<p>In the question we are provided that <em>β</em><sub>0</sub>, <em>β</em><sub>1</sub>,
+<em>β</em><sub>2</sub> and <em>β</em><sub>3</sub> are constants such that
+<em>β</em><sub>0</sub> = 1.0, <em>β</em><sub>1</sub> = −0.1, <em>β</em><sub>2</sub> = 0.05
+and <em>β</em><sub>3</sub> = 0.75</p>
+<pre><code># Setting  the coefficients
+b_0 &lt;- 1
+b_1 &lt;- -0.1
+b_2 &lt;- 0.05
+b_3 &lt;- 0.75
+
+# Generating the response vector Y
+Y &lt;- b_0 + b_1*(X) + b_2*(X^2) + b_3*(X^3) + noise_vec
+
+# We will just have a look at the first five elements of Y to make sure things are in place
+head(Y)
+
+## [1] 0.006657125 1.258462915 1.133378061 0.960502028 1.704702553 1.107916455
+</code></pre>
+<h4 id="part-b-1">Part b:</h4>
+<p>Here, we want to use regsubsets() function to perform best subset
+selection in order to choose the best model containing the predictors
+<em>X</em>, <em>X</em><sup>2</sup>,&hellip;,<em>X</em><sup>8</sup> using the measures
+<em>C</em><sub><em>p</em></sub>, <em>B<strong>I</strong>C</em> and Adjusted <em>R</em><sup>2</sup>.</p>
+<pre><code>mod &lt;- regsubsets(Y~poly(X,8,raw = TRUE), data = data.frame(X,Y), nvmax = 8)
+
+# summary of the regsubsets() gives us the best model for each number of predictor
+# and its respective characteristics including Cp, BIC, RSS, Adjusted R-squared
+reg.summary &lt;- summary(mod)
+
+par(mfrow=c(2,2))
+
+# Finding the index for which we have minimum Cp as for determining best model, 
+# we select the one with lowest Cp
+cp_min &lt;- which.min(reg.summary$cp)  
+
+# Plotting Cp vs number of predictors
+plot(reg.summary$cp, xlab=&quot;Number of Predictors&quot;, ylab=&quot;Best Subset Cp&quot;, type=&quot;l&quot;)
+
+# Highlighting the point for which we have minimum Cp
+points(cp_min, reg.summary$cp[cp_min], col=&quot;red&quot;, pch=16)
+
+# Finding the index for which we have minimum BIC as for determining the best model,
+# we select the one with lowest BIC
+bic_min &lt;- which.min(reg.summary$bic)  
+
+# Plotting BIC vs number of predictors
+plot(reg.summary$bic, xlab=&quot;Number of Predictors&quot;, ylab=&quot;Best Subset BIC&quot;, type=&quot;l&quot;)
+
+# Highlighting the point for which we have minimum BIC
+points(bic_min, reg.summary$bic[bic_min], col=&quot;red&quot;, pch=16)
+
+# Finding the index for which we have maximum Adjusted R-squared as for determining 
+# the best model, we select the one with maximum Adjusted R-squared
+adjr2_max &lt;- which.max(reg.summary$adjr2) 
+
+# Plotting Adjusted R-squared vs number of predictors
+plot(reg.summary$adjr2, xlab=&quot;Number of Predictors&quot;, ylab=&quot;Best Subset 
+     Adjusted R^2&quot;, type=&quot;l&quot;)
+
+# Highlighting the point for which we have maximum adjusted R-squared
+points(adjr2_max, reg.summary$adjr2[adjr2_max], col=&quot;red&quot;, pch=16)
+</code></pre>
+<p><img src="/img/2b-1 2.png"  /></p>
+<p>Now that we have this, we want to know model coefficients from each of
+<em>C</em><sub><em>p</em></sub>, <em>B<strong>I</strong>C</em> and Adjusted <em>R</em><sup>2</sup>.</p>
+<pre><code>knitr::kable(coef(mod, cp_min), caption = &quot;Coefficients for model based on Cp&quot;)
+</code></pre>
+<table>
+<caption>Coefficients for model based on Cp</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">x</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(Intercept)</td>
+<td align="right">1.0066155</td>
+</tr>
+<tr class="even">
+<td>poly(X, 8, raw = TRUE)1</td>
+<td align="right">-0.0839368</td>
+</tr>
+<tr class="odd">
+<td>poly(X, 8, raw = TRUE)2</td>
+<td align="right">0.0576914</td>
+</tr>
+<tr class="even">
+<td>poly(X, 8, raw = TRUE)3</td>
+<td align="right">0.7496948</td>
+</tr>
+</tbody>
+</table>
+<pre><code>knitr::kable(coef(mod, bic_min), caption = &quot;Coefficients for model based on BIC&quot;)
+</code></pre>
+<table>
+<caption>Coefficients for model based on BIC</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">x</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(Intercept)</td>
+<td align="right">1.0066155</td>
+</tr>
+<tr class="even">
+<td>poly(X, 8, raw = TRUE)1</td>
+<td align="right">-0.0839368</td>
+</tr>
+<tr class="odd">
+<td>poly(X, 8, raw = TRUE)2</td>
+<td align="right">0.0576914</td>
+</tr>
+<tr class="even">
+<td>poly(X, 8, raw = TRUE)3</td>
+<td align="right">0.7496948</td>
+</tr>
+</tbody>
+</table>
+<pre><code>knitr::kable(coef(mod, adjr2_max), caption = &quot;Coefficients for model based on Adjusted R-squared&quot;)
+</code></pre>
+<table>
+<caption>Coefficients for model based on Adjusted R-squared</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">x</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(Intercept)</td>
+<td align="right">1.0039223</td>
+</tr>
+<tr class="even">
+<td>poly(X, 8, raw = TRUE)1</td>
+<td align="right">-0.1087415</td>
+</tr>
+<tr class="odd">
+<td>poly(X, 8, raw = TRUE)2</td>
+<td align="right">0.0618556</td>
+</tr>
+<tr class="even">
+<td>poly(X, 8, raw = TRUE)3</td>
+<td align="right">0.7696595</td>
+</tr>
+<tr class="odd">
+<td>poly(X, 8, raw = TRUE)5</td>
+<td align="right">-0.0026123</td>
+</tr>
+</tbody>
+</table>
+<p>Based on the above table, we observe that if we select our model based
+on <em>C</em><sub><em>p</em></sub>, our intercept will be 1.0066, coefficient of <em>X</em>
+will be -0.0839, that of <em>X</em><sup>2</sup> will be 0.0577 and that of
+<em>X</em><sup>3</sup> will be 0.7498.</p>
+<p>If we select our model based on <em>B<strong>I</strong>C</em>, our intercept will be 1.0066,
+coefficient of <em>X</em> will be -0.0839, that of <em>X</em><sup>2</sup> will be
+0.0577 and that of <em>X</em><sup>3</sup> will be 0.7498.</p>
+<p>Finally, if we select our model based on Adjusted R-squared, our
+intercept will be 1.0039, coefficient of <em>X</em> will be -0.1087, that of
+<em>X</em><sup>2</sup> will be 0.0619, that of <em>X</em><sup>3</sup> will be 0.7697
+and that of <em>X</em><sup>5</sup> will be -0.0026.</p>
+<p>Now, here, it may seem a bit strange to see Adjusted R-squared selecting
+4 predictors. However, if we see at its plot, we can see that after you
+select 3 predictors, there is not a substantial improvement in adjusted
+R-squared as you add another predictor. So, we can potentially have
+model with 4 predictors as well.</p>
+<h4 id="part-c-1">Part c:</h4>
+<p>Here, we want to fit a ridge regression model to the simulated data,
+again using X, <em>X</em><sup>2</sup>, &hellip; , <em>X</em><sup>8</sup> as predictors.</p>
+<p>Firstly, we want to plot the extracted coefficients as a function of
+<em>l<strong>o</strong>g</em>(<em>λ</em>) with a legend containing each curve color and its
+predictor name in the top right corner.</p>
+<p>Here, in the plot, the numbers on the top scale are the number of
+coefficients at that weight that are not zero.</p>
+<p>In the legend &ldquo;poly(x, 8, raw = T)i&rdquo; refers to <em>X</em><sup><em>i</em></sup>. So,
+the corresponding lines represent the coefficients of <em>X</em><sup><em>i</em></sup>
+for that particular value of log(lambda).</p>
+<pre><code># Getting data into a data frame
+data_final = data.frame(y = Y, x = X)
+
+# Now, we use model.matrix() to create x. It will generate a matrix corresponding to our 
+# 8 predictors. Also, if there are any qualitative variables, it will transform them 
+# into dummy variables as glmnet() can only take numerical, quantitative inputs
+xmat = model.matrix(y ~ poly(x, 8, raw = T), data = data_final)[, -1]
+
+# Applying ridge regression
+mod.ridge = glmnet(xmat, Y, alpha = 0)
+
+# We specify &quot;xvar = lambda&quot; as by default, it plots coefficients against l1 norm
+plot(mod.ridge, xvar = &quot;lambda&quot;, label = TRUE)
+legend(&quot;topright&quot;, lwd = 1, col = 1:8, legend = colnames(xmat), cex = .5)
+</code></pre>
+<p><img src="/img/2d3-1.png"  /></p>
+<p>Now that we have the plot, we want to plot the cross-validation error as
+a function of <em>l<strong>o</strong>g</em>(<em>λ</em>) to find optimal <em>λ</em>. Following that, we
+also want coefficient estimates for that particular value of <em>λ</em>.</p>
+<pre><code># Setting the seed
+set.seed(20)
+
+# Running the cross validation model with 10 folds by default.
+mod_cv_2 = cv.glmnet(xmat, Y, alpha = 0)
+
+# Plotting Cross Validation model automatically plots cross-validation error as 
+# a function of log(lambda). Here, there are two lambda's indicated by vertical line. 
+# One is minimum mean cross validation error. Other one gives most regularized model 
+# such that error is within one standard error of minimum
+plot(mod_cv_2, xvar = &quot;lambda&quot;, label = TRUE)
+</code></pre>
+<p><img src="/img/2d4-1.png"  /></p>
+<pre><code># To find the optimal lambda, we extract the one with minimum mean cross validation error.
+mod_cv_2$lambda.min
+
+## [1] 2.563188
+
+# Getting the coefficient estimates for optimal lambda
+x &lt;- (predict(mod.ridge,s = mod_cv_2$lambda.min, type = &quot;coefficients&quot;))
+knitr::kable(as.data.frame(as.matrix(x)), caption = &quot;Coefficient for Ridge 
+             Regression model with optimal lambda&quot;)
+</code></pre>
+<table>
+<caption>Coefficient for Ridge Regression model with optimal lambda</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(Intercept)</td>
+<td align="right">1.0123824</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)1</td>
+<td align="right">0.5445252</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)2</td>
+<td align="right">-0.0050818</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)3</td>
+<td align="right">0.1891529</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)4</td>
+<td align="right">0.0031130</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)5</td>
+<td align="right">0.0241447</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)6</td>
+<td align="right">0.0011441</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)7</td>
+<td align="right">0.0023368</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)8</td>
+<td align="right">0.0002151</td>
+</tr>
+</tbody>
+</table>
+<h4 id="part-d-1">Part d:</h4>
+<p>Here, we want to fit a lasso regression model to the simulated data,
+again using X, <em>X</em><sup>2</sup>, &hellip; , <em>X</em><sup>8</sup> as predictors.</p>
+<p>Firstly, we want to plot the extracted coefficients as a function of
+<em>l<strong>o</strong>g</em>(<em>λ</em>) with a legend containing each curve color and its
+predictor name in the top right corner.</p>
+<p>Here, in the plot, the numbers on the top scale are the number of
+coefficients at that weight that are not zero.</p>
+<p>In the legend &ldquo;poly(x, 8, raw = T)i&rdquo; refers to <em>X</em><sup><em>i</em></sup>. So,
+the corresponding lines represent the coefficients of <em>X</em><sup><em>i</em></sup>
+for that particular value of log(lambda).</p>
+<pre><code># Getting data into a data frame
+data_final = data.frame(y = Y, x = X)
+
+# Now, we use model.matrix() to create x. It will generate a matrix corresponding to our
+# 8 predictors. Also, if there are any qualitative variables, it will transform them 
+# into dummy variables as glmnet() can only take numerical, quantitative inputs.
+x_mat = model.matrix(y ~ poly(x, 8, raw = T), data = data_final)[, -1]
+
+# Applying lasso regression
+mod.lasso = glmnet(x_mat, Y, alpha = 1)
+
+# We specify &quot;xvar = lambda&quot; as by default, it plots coefficients against l1 norm.
+plot(mod.lasso, xvar = &quot;lambda&quot;, ylim = c(0,1), label = TRUE) 
+legend(&quot;topright&quot;, lwd = 1, col = 1:8, legend = colnames(x_mat), cex = 0.4)
+</code></pre>
+<p><img src="/img/2d1-1.png"  /></p>
+<p>Now that we have the plot, we want to plot the cross-validation error as
+a function of <em>l<strong>o</strong>g</em>(<em>λ</em>) to find optimal <em>λ</em>. Following that, we
+also want coefficient estimates for that particular value of <em>λ</em>.</p>
+<pre><code># Setting the seed
+set.seed(21)
+
+# Running the cross validation model with 10 folds by default
+mod_cv_L = cv.glmnet(xmat, Y, alpha = 1)
+
+# Plotting cross-validation model automatically plots cross-validation error as
+# a function of log(lambda). Here, there are two lambda's indicated by vertical line.
+# One is minimum mean cross validation  error. Other  one gives most regularized model
+# such that error is within one standard error of minimum.
+plot(mod_cv_L, xvar = &quot;lambda&quot;, label = TRUE)
+</code></pre>
+<p><img src="/img/2d2-1.png"  /></p>
+<pre><code># To find the optimal lambda, we extract the one with minimum mean cross validation error
+mod_cv_L$lambda.min
+
+## [1] 0.02178078
+
+# Getting the coefficient estimates for optimal lambda
+y &lt;- predict(mod.lasso,s = mod_cv_L$lambda.min, type = &quot;coefficients&quot;)
+knitr::kable(as.data.frame(as.matrix(y)), caption = &quot;Coefficient for Lasso 
+             Regression model with optimal lambda&quot;)
+</code></pre>
+<table>
+<caption>Coefficient for Lasso Regression model with optimal lambda</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="right">1</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>(Intercept)</td>
+<td align="right">1.0200232</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)1</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)2</td>
+<td align="right">0.0433211</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)3</td>
+<td align="right">0.7055455</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)4</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)5</td>
+<td align="right">0.0036491</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)6</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="even">
+<td>poly(x, 8, raw = T)7</td>
+<td align="right">0.0000000</td>
+</tr>
+<tr class="odd">
+<td>poly(x, 8, raw = T)8</td>
+<td align="right">0.0000000</td>
+</tr>
+</tbody>
+</table>
+
+          </div>
+
+          
+
+
+
+          
+          <div class="article-widget">
+            
+<div class="post-nav">
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/sta314/assignment_4_updated/" rel="next">Assignment 3</a>
+  </div>
+  
+  
+  
+  <div class="post-nav-item">
+    <div class="meta-nav">Next</div>
+    <a href="/courses/sta314/assignment_6_updated/" rel="prev">Assignment 5</a>
+  </div>
+  
+</div>
+
+          </div>
+          
+        </div>
+
+        <div class="body-footer">
+          <p>Last updated on May 5, 2019</p>
+
+          
+
+
+
+
+
+
+  
+  
+
+<p class="edit-page">
+  <a href="https://github.com/gcushen/hugo-academic/edit/master/content/courses/STA314/Assignment_5_updated.md">
+    <i class="fas fa-pen pr-2"></i>Edit this page
+  </a>
+</p>
+
+
+
+
+          
+
+
+          
+
+
+  
+  
+
+
+
+        </div>
+
+      </article>
+
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2020 Raj Patel
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+  </p>
+</footer>
+
+
+    </main>
+  </div>
+</div>
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.1/anchor.min.js" integrity="sha256-pB/deHc9CGfFpJRjC43imB29Rse8tak+5eXqntO94ck=" crossorigin="anonymous"></script>
+    <script>
+      anchors.add();
+    </script>
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.66c553246b0f279a03be6e5597f72b52.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
