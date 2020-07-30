@@ -93,11 +93,11 @@ phone = ""
 
 # Address
 # For country_code, use the 2-letter ISO code (see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 )
-address = {street = "57 Charles St W", city = "Toronto", region = "ON", postcode = "M5S2X1", country = "Canada", country_code = "CA"}
+address = {street = "1101 Bay St", city = "Toronto", region = "ON", postcode = "M5S2W8", country = "Canada", country_code = "CA"}
 
 # Geographic coordinates
 # To get your coordinates, right-click on Google Maps and choose "What's here?". The coords will show up at the bottom.
-coordinates = {latitude = "43.667808", longitude = "-79.389581"}
+coordinates = {latitude = "43.668021", longitude = "-79.388541"}
 
 # Directions for visitors to locate you.
 directions = ""
