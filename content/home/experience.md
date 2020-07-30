@@ -18,6 +18,20 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
+  title = "Graduate Researcher"
+  company = "Dynamic Optimization Lab, University of Toronto"
+  company_url = ""
+  location = "Toronto, ON"
+  date_start = "2019-04-01"
+  date_end = ""
+  description = """ 
+  Responsibilities included: 
+  
+* Developed a multi-layer neural net framework to solve the optimal stopping problem for pricing American Options.
+* Leveraging that model to approximate the solution of a PDE/SDE with control to model high dimensional Systemic Risk.
+  """
+
+[[experience]]
   title = "Teaching Assistant"
   company = "University of Toronto"
   company_url = ""
@@ -56,9 +70,9 @@ date_format = "Jan 2006"
   description = """
   Responsibilities included:
   
-* Generating Trading Grids for traders to trade based on client firms’ policies, their behaviour and change in Option Values.
-* Performing Greek analysis in R to explain the movements in Option Values and Greeks to the clients on weekly basis.
-* Creating weekly Performance Attribution report for clients based on daily trades and their hedges made across the week.
+* Generated Trading Grids for traders to trade based on client firms’ policies, their behaviour and change in Option Values.
+* Performed Greek analysis in R to explain the movements in Option Values and Greeks to the clients on weekly basis.
+* Created weekly Performance Attribution report for clients based on daily trades and their hedges made across the week.
   """
   
 [[experience]]
