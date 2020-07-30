@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "Dynamic Optimization Lab, University of Toronto"
   company_url = ""
   location = "Toronto, ON"
-  date_start = "2019-04-01"
+  date_start = "2020-04-01"
   date_end = ""
   description = """ 
   Responsibilities included: 
