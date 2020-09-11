@@ -12,4 +12,4 @@ type: docs
 weight: 3
 ---
 
-{{% staticref "files/AA2_submission_updated.pdf" %}}Assignment 2 {{% /staticref %}}
+{{% staticref "files/A2_submission_updated.pdf" %}}Assignment 2 {{% /staticref %}}
