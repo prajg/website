@@ -27,8 +27,8 @@ date_format = "Jan 2006"
   description = """ 
   Responsibilities included: 
   
-* Developed a multi-layer neural net framework to solve the optimal stopping problem for pricing American Options.
-* Leveraging that model to approximate the solution of a PDE/SDE with control to model high dimensional Systemic Risk.
+• Worked on a Reinforcement Learning (RL) based Neural Net approach for solving Black Scholes PDE for pricing European Options.
+• Developing a RL neural net framework to solve High Dimensional PDE useful in Option Pricing and Optimal Liquidation.
   """
 
 [[experience]]
